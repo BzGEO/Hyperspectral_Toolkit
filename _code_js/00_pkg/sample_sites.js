@@ -3,7 +3,7 @@
 // Sample site locations for use with hyperspectral data
 // Questions? Contact Emil A. Cherrington, Ph.D. (eac0021@uah.edu)
 // This supports the following GEE code repository: https://bit.ly/gee_repo_pace_oci.
-// Last updated: 20.07.2025
+// Last updated: 10.08.2025
 
 // var x = require('users/bzgeo/hyperspectral_toolkit:00_pkg/sample_sites.js');
 
@@ -190,7 +190,13 @@ var aoi_al_paint_rock = ee.FeatureCollection("users/servirbz/aoi/other/al_paint_
 exports.aoi_al_paint_rock = aoi_al_paint_rock;
 
 // US NEON SITE: UNIVERSITY OF NOTRE DAME ENVIRONMENTAL RESEARCH CENTER (UNDERC)
-var underc = ee.FeatureCollection("users/servirbz/aoi/us/us_neon_site_underc_gcs");
-exports.underc = underc;
+var us_underc = ee.FeatureCollection("users/servirbz/aoi/us/us_neon_site_underc_gcs");
+exports.us_underc = us_underc;
+
+var us_underc_ln1 = ln1(us_underc);
+exports.us_underc_ln1 = us_underc_ln1;
+
+var us_underc_ln2 = ln2(us_underc);
+exports.underc_ln2 = us_underc_ln2;
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
