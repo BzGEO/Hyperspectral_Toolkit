@@ -3,7 +3,7 @@
 // Loads reference PACE OCI data (surface reflectance data, land vegetation indices)
 // Questions? Contact Emil A. Cherrington, Ph.D. (eac0021@uah.edu)
 // This is a part of the following GEE code repository: https://bit.ly/gee_repo_hyperspectral.
-// Last updated: 07.08.2025
+// Last updated: 16.01.2026
 
 // var x = require('users/bzgeo/hyperspectral_toolkit:00_pkg/ref_data_pace_oci.js');
 
@@ -46,6 +46,66 @@ exports.pace_oci_1d_conus_west = pace_oci_1d_conus_west;
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// DOMAIN: CONTINENTAL USA (CONUS) | SPATIAL RES: 2 KM  | TEMPORAL RES: MONTHLY
+
+var pace_oci_mt_conus_02km_202403 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/conus_02km/conus_pace_oci_sr_202403_02km").set(t,ee.Date.fromYMD(2024,3,31).millis()),
+    pace_oci_mt_conus_02km_202404 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/conus_02km/conus_pace_oci_sr_202404_02km").set(t,ee.Date.fromYMD(2024,4,30).millis()),
+    pace_oci_mt_conus_02km_202405 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/conus_02km/conus_pace_oci_sr_202405_02km").set(t,ee.Date.fromYMD(2024,5,31).millis()),
+    pace_oci_mt_conus_02km_202406 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/conus_02km/conus_pace_oci_sr_202406_02km").set(t,ee.Date.fromYMD(2024,6,30).millis()),
+    pace_oci_mt_conus_02km_202407 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/conus_02km/conus_pace_oci_sr_202407_02km").set(t,ee.Date.fromYMD(2024,7,31).millis()),
+    pace_oci_mt_conus_02km_202408 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/conus_02km/conus_pace_oci_sr_202408_02km").set(t,ee.Date.fromYMD(2024,8,31).millis()),
+    pace_oci_mt_conus_02km_202409 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/conus_02km/conus_pace_oci_sr_202409_02km").set(t,ee.Date.fromYMD(2024,9,30).millis()),
+    pace_oci_mt_conus_02km_202410 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/conus_02km/conus_pace_oci_sr_202410_02km").set(t,ee.Date.fromYMD(2024,10,31).millis()),
+    pace_oci_mt_conus_02km_202411 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/conus_02km/conus_pace_oci_sr_202411_02km").set(t,ee.Date.fromYMD(2024,11,30).millis()),
+    pace_oci_mt_conus_02km_202412 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/conus_02km/conus_pace_oci_sr_202412_02km").set(t,ee.Date.fromYMD(2024,12,31).millis()),
+    pace_oci_mt_conus_02km_202501 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/conus_02km/conus_pace_oci_sr_202501_02km").set(t,ee.Date.fromYMD(2025,1,31).millis()),
+    pace_oci_mt_conus_02km_202502 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/conus_02km/conus_pace_oci_sr_202502_02km").set(t,ee.Date.fromYMD(2025,2,28).millis()),
+    pace_oci_mt_conus_02km_202503 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/conus_02km/conus_pace_oci_sr_202503_02km").set(t,ee.Date.fromYMD(2025,3,31).millis()),
+    pace_oci_mt_conus_02km_202504 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/conus_02km/conus_pace_oci_sr_202504_02km").set(t,ee.Date.fromYMD(2025,4,30).millis()),
+    pace_oci_mt_conus_02km_202505 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/conus_02km/conus_pace_oci_sr_202505_02km").set(t,ee.Date.fromYMD(2025,5,31).millis()),
+    pace_oci_mt_conus_02km_202506 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/conus_02km/conus_pace_oci_sr_202506_02km").set(t,ee.Date.fromYMD(2025,6,30).millis()),
+    pace_oci_mt_conus_02km_202507 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/conus_02km/conus_pace_oci_sr_202507_02km").set(t,ee.Date.fromYMD(2025,7,31).millis()),
+    pace_oci_mt_conus_02km_202508 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/conus_02km/conus_pace_oci_sr_202508_02km").set(t,ee.Date.fromYMD(2025,8,31).millis()),
+    pace_oci_mt_conus_02km_202509 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/conus_02km/conus_pace_oci_sr_202509_02km").set(t,ee.Date.fromYMD(2025,9,30).millis()),
+    pace_oci_mt_conus_02km_202510 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/conus_02km/conus_pace_oci_sr_202510_02km").set(t,ee.Date.fromYMD(2025,10,31).millis()),
+    pace_oci_mt_conus_02km_202511 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/conus_02km/conus_pace_oci_sr_202511_02km").set(t,ee.Date.fromYMD(2025,11,30).millis());
+
+
+exports.pace_oci_mt_conus_02km_202403 = pace_oci_mt_conus_02km_202403;
+exports.pace_oci_mt_conus_02km_202404 = pace_oci_mt_conus_02km_202404;
+exports.pace_oci_mt_conus_02km_202405 = pace_oci_mt_conus_02km_202405;
+exports.pace_oci_mt_conus_02km_202406 = pace_oci_mt_conus_02km_202406;
+exports.pace_oci_mt_conus_02km_202407 = pace_oci_mt_conus_02km_202407;
+exports.pace_oci_mt_conus_02km_202408 = pace_oci_mt_conus_02km_202408;
+exports.pace_oci_mt_conus_02km_202409 = pace_oci_mt_conus_02km_202409;
+exports.pace_oci_mt_conus_02km_202410 = pace_oci_mt_conus_02km_202410;
+exports.pace_oci_mt_conus_02km_202411 = pace_oci_mt_conus_02km_202411;
+exports.pace_oci_mt_conus_02km_202412 = pace_oci_mt_conus_02km_202412;
+
+exports.pace_oci_mt_conus_02km_202501 = pace_oci_mt_conus_02km_202501;
+exports.pace_oci_mt_conus_02km_202502 = pace_oci_mt_conus_02km_202502;
+exports.pace_oci_mt_conus_02km_202503 = pace_oci_mt_conus_02km_202503;
+exports.pace_oci_mt_conus_02km_202504 = pace_oci_mt_conus_02km_202504;
+exports.pace_oci_mt_conus_02km_202505 = pace_oci_mt_conus_02km_202505;
+exports.pace_oci_mt_conus_02km_202506 = pace_oci_mt_conus_02km_202506;
+exports.pace_oci_mt_conus_02km_202507 = pace_oci_mt_conus_02km_202507;
+exports.pace_oci_mt_conus_02km_202508 = pace_oci_mt_conus_02km_202508;
+exports.pace_oci_mt_conus_02km_202509 = pace_oci_mt_conus_02km_202509;
+exports.pace_oci_mt_conus_02km_202510 = pace_oci_mt_conus_02km_202510;
+exports.pace_oci_mt_conus_02km_202511 = pace_oci_mt_conus_02km_202511;
+
+//
+
+var pace_oci_mt_conus_02km = ee.ImageCollection.fromImages([pace_oci_mt_conus_02km_202403,pace_oci_mt_conus_02km_202404,pace_oci_mt_conus_02km_202405,pace_oci_mt_conus_02km_202406,pace_oci_mt_conus_02km_202407,
+                                                    pace_oci_mt_conus_02km_202408,pace_oci_mt_conus_02km_202409,pace_oci_mt_conus_02km_202410,pace_oci_mt_conus_02km_202411,pace_oci_mt_conus_02km_202412,
+                                                    pace_oci_mt_conus_02km_202501,pace_oci_mt_conus_02km_202502,pace_oci_mt_conus_02km_202503,pace_oci_mt_conus_02km_202504,pace_oci_mt_conus_02km_202505,
+                                                    pace_oci_mt_conus_02km_202506,pace_oci_mt_conus_02km_202507,pace_oci_mt_conus_02km_202508,pace_oci_mt_conus_02km_202509,pace_oci_mt_conus_02km_202510,
+                                                    pace_oci_mt_conus_02km_202511])
+                                                    .map(function(img){return img.updateMask(img.gte(0)).set(t,img.get(t))});
+
+exports.pace_oci_mt_conus_02km = pace_oci_mt_conus_02km;
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // DOMAIN: CONTINENTAL USA (CONUS) | SPATIAL RES: 4 KM  | TEMPORAL RES: MONTHLY
 
@@ -89,6 +149,7 @@ var pace_oci_mt_conus = ee.ImageCollection.fromImages([pace_oci_mt_conus_202403,
                                                     pace_oci_mt_conus_202501,pace_oci_mt_conus_202502,pace_oci_mt_conus_202503,pace_oci_mt_conus_202504,pace_oci_mt_conus_202505])
                                                     .map(function(img){return img.updateMask(img.gte(0)).set(t,img.get(t))});
 exports.pace_oci_mt_conus = pace_oci_mt_conus;
+exports.pace_oci_sr_mt_conus = pace_oci_mt_conus;
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -110,10 +171,103 @@ exports.pace_oci_mes_20250316 = pace_oci_mes_20250316;
 
 // DOMAIN: MESOAMERICA | SPATIAL RES: 2 KM | TEMPORAL RES: MONTHLY
 
-var pace_oci_mes_202504 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/mesoamerica_02km/mes_pace_oci_sr_202504_2km");
+var pace_oci_mes_202403_02km = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/mesoamerica_02km/mes_pace_oci_sr_202403_02km");
+var pace_oci_mes_202404_02km = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/mesoamerica_02km/mes_pace_oci_sr_202404_02km");
+var pace_oci_mes_202405_02km = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/mesoamerica_02km/mes_pace_oci_sr_202405_02km");
+var pace_oci_mes_202406_02km = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/mesoamerica_02km/mes_pace_oci_sr_202406_02km");
+var pace_oci_mes_202407_02km = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/mesoamerica_02km/mes_pace_oci_sr_202407_02km");
+var pace_oci_mes_202408_02km = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/mesoamerica_02km/mes_pace_oci_sr_202408_02km");
+var pace_oci_mes_202409_02km = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/mesoamerica_02km/mes_pace_oci_sr_202409_02km");
+var pace_oci_mes_202410_02km = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/mesoamerica_02km/mes_pace_oci_sr_202410_02km");
+var pace_oci_mes_202411_02km = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/mesoamerica_02km/mes_pace_oci_sr_202411_02km");
+var pace_oci_mes_202412_02km = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/mesoamerica_02km/mes_pace_oci_sr_202412_02km");
 
-exports.pace_oci_mes_202504 = pace_oci_mes_202504;
+var pace_oci_mes_202501_02km = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/mesoamerica_02km/mes_pace_oci_sr_202501_02km");
+var pace_oci_mes_202502_02km = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/mesoamerica_02km/mes_pace_oci_sr_202502_02km");
+var pace_oci_mes_202503_02km = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/mesoamerica_02km/mes_pace_oci_sr_202503_02km");
+var pace_oci_mes_202504_02km = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/mesoamerica_02km/mes_pace_oci_sr_202504_02km");
+var pace_oci_mes_202505_02km = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/mesoamerica_02km/mes_pace_oci_sr_202505_02km");
+var pace_oci_mes_202506_02km = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/mesoamerica_02km/mes_pace_oci_sr_202506_02km");
+var pace_oci_mes_202507_02km = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/mesoamerica_02km/mes_pace_oci_sr_202507_02km");
+var pace_oci_mes_202508_02km = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/mesoamerica_02km/mes_pace_oci_sr_202508_02km");
+var pace_oci_mes_202509_02km = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/mesoamerica_02km/mes_pace_oci_sr_202509_02km");
+var pace_oci_mes_202510_02km = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/mesoamerica_02km/mes_pace_oci_sr_202510_02km");
+var pace_oci_mes_202511_02km = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/mesoamerica_02km/mes_pace_oci_sr_202511_02km");
 
+exports.pace_oci_mes_202403_02km = pace_oci_mes_202403_02km.updateMask(pace_oci_mes_202403_02km.gte(0)).toFloat();
+exports.pace_oci_mes_202404_02km = pace_oci_mes_202404_02km.updateMask(pace_oci_mes_202404_02km.gte(0)).toFloat();
+exports.pace_oci_mes_202405_02km = pace_oci_mes_202405_02km.updateMask(pace_oci_mes_202405_02km.gte(0)).toFloat();
+exports.pace_oci_mes_202406_02km = pace_oci_mes_202406_02km.updateMask(pace_oci_mes_202406_02km.gte(0)).toFloat();
+exports.pace_oci_mes_202407_02km = pace_oci_mes_202407_02km.updateMask(pace_oci_mes_202407_02km.gte(0)).toFloat();
+exports.pace_oci_mes_202408_02km = pace_oci_mes_202408_02km.updateMask(pace_oci_mes_202408_02km.gte(0)).toFloat();
+exports.pace_oci_mes_202409_02km = pace_oci_mes_202409_02km.updateMask(pace_oci_mes_202409_02km.gte(0)).toFloat();
+exports.pace_oci_mes_202410_02km = pace_oci_mes_202410_02km.updateMask(pace_oci_mes_202410_02km.gte(0)).toFloat();
+exports.pace_oci_mes_202411_02km = pace_oci_mes_202411_02km.updateMask(pace_oci_mes_202411_02km.gte(0)).toFloat();
+exports.pace_oci_mes_202412_02km = pace_oci_mes_202412_02km.updateMask(pace_oci_mes_202412_02km.gte(0)).toFloat();
+
+exports.pace_oci_mes_202501_02km = pace_oci_mes_202501_02km.updateMask(pace_oci_mes_202501_02km.gte(0)).toFloat();
+exports.pace_oci_mes_202502_02km = pace_oci_mes_202502_02km.updateMask(pace_oci_mes_202502_02km.gte(0)).toFloat();
+exports.pace_oci_mes_202503_02km = pace_oci_mes_202503_02km.updateMask(pace_oci_mes_202503_02km.gte(0)).toFloat();
+exports.pace_oci_mes_202504_02km = pace_oci_mes_202504_02km.updateMask(pace_oci_mes_202504_02km.gte(0)).toFloat();
+exports.pace_oci_mes_202505_02km = pace_oci_mes_202505_02km.updateMask(pace_oci_mes_202505_02km.gte(0)).toFloat();
+exports.pace_oci_mes_202506_02km = pace_oci_mes_202506_02km.updateMask(pace_oci_mes_202506_02km.gte(0)).toFloat();
+exports.pace_oci_mes_202507_02km = pace_oci_mes_202507_02km.updateMask(pace_oci_mes_202507_02km.gte(0)).toFloat();
+exports.pace_oci_mes_202508_02km = pace_oci_mes_202508_02km.updateMask(pace_oci_mes_202508_02km.gte(0)).toFloat();
+exports.pace_oci_mes_202509_02km = pace_oci_mes_202509_02km.updateMask(pace_oci_mes_202509_02km.gte(0)).toFloat();
+exports.pace_oci_mes_202510_02km = pace_oci_mes_202510_02km.updateMask(pace_oci_mes_202510_02km.gte(0)).toFloat();
+exports.pace_oci_mes_202511_02km = pace_oci_mes_202511_02km.updateMask(pace_oci_mes_202511_02km.gte(0)).toFloat();
+
+//
+
+var pace_oci_mt_mes = ee.ImageCollection.fromImages([
+  pace_oci_mes_202403_02km,pace_oci_mes_202404_02km,pace_oci_mes_202405_02km,pace_oci_mes_202406_02km,pace_oci_mes_202407_02km,
+  pace_oci_mes_202408_02km,pace_oci_mes_202409_02km,pace_oci_mes_202410_02km,pace_oci_mes_202411_02km,pace_oci_mes_202412_02km,
+  pace_oci_mes_202501_02km,pace_oci_mes_202502_02km,pace_oci_mes_202503_02km,pace_oci_mes_202504_02km,pace_oci_mes_202505_02km,
+  pace_oci_mes_202506_02km,pace_oci_mes_202507_02km,pace_oci_mes_202508_02km,pace_oci_mes_202509_02km,pace_oci_mes_202510_02km,
+  pace_oci_mes_202511_02km
+  ])
+  .map(function(img){return img.updateMask(img.gte(0)).multiply(10000).toInt16().reproject('EPSG:4326', null, 2000).set(t,img.get(t))});
+exports.pace_oci_mt_mes = pace_oci_mt_mes;
+
+//
+
+var pace_oci_mt_mes_img = ee.Image.cat([
+  pace_oci_mes_202403_02km,pace_oci_mes_202404_02km,pace_oci_mes_202405_02km,pace_oci_mes_202406_02km,pace_oci_mes_202407_02km,
+  pace_oci_mes_202408_02km,pace_oci_mes_202409_02km,pace_oci_mes_202410_02km,pace_oci_mes_202411_02km,pace_oci_mes_202412_02km,
+  pace_oci_mes_202501_02km,pace_oci_mes_202502_02km,pace_oci_mes_202503_02km,pace_oci_mes_202504_02km,pace_oci_mes_202505_02km,
+  pace_oci_mes_202506_02km,pace_oci_mes_202507_02km,pace_oci_mes_202508_02km,pace_oci_mes_202509_02km,pace_oci_mes_202510_02km,
+  pace_oci_mes_202511_02km
+  ])
+  .multiply(10000).toInt16().reproject('EPSG:4326', null, 2000);
+exports.pace_oci_mt_mes_img = pace_oci_mt_mes_img;
+
+//
+
+var pace_oci_mt_mes_img2 = ee.Image.cat([
+  pace_oci_mes_202403_02km,pace_oci_mes_202404_02km,pace_oci_mes_202405_02km,pace_oci_mes_202406_02km,pace_oci_mes_202407_02km,
+  pace_oci_mes_202408_02km,pace_oci_mes_202409_02km,pace_oci_mes_202410_02km,pace_oci_mes_202411_02km,pace_oci_mes_202412_02km,
+  pace_oci_mes_202501_02km,pace_oci_mes_202502_02km
+  ])
+  .multiply(10000).toInt16().reproject('EPSG:4326', null, 2000);
+exports.pace_oci_mt_mes_img2 = pace_oci_mt_mes_img2;
+
+
+//
+
+function pace_mes(no){
+var imageList = pace_oci_mt_mes.toList(pace_oci_mt_mes.size());
+return ee.Image(imageList.get(no))}
+
+exports.pace_mes = pace_mes;
+
+//
+
+function conv_modis(img){
+
+return img.select(['b27','b43','b60','b110','b120','b121']).set(t,img.get(t));
+}
+
+exports.conv_modis = conv_modis;
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -152,37 +306,6 @@ exports.pace_oci_mt_mes_202503 = pace_oci_mt_mes_202503.updateMask(pace_oci_mt_m
 exports.pace_oci_mt_mes_202504 = pace_oci_mt_mes_202504.updateMask(pace_oci_mt_mes_202504.gte(0)).toFloat();
 exports.pace_oci_mt_mes_202505 = pace_oci_mt_mes_202505.updateMask(pace_oci_mt_mes_202505.gte(0)).toFloat();
 
-//
-
-var pace_oci_mt_mes = ee.ImageCollection.fromImages([pace_oci_mt_mes_202403,pace_oci_mt_mes_202404,pace_oci_mt_mes_202405,pace_oci_mt_mes_202406,pace_oci_mt_mes_202407,
-                                                    pace_oci_mt_mes_202408,pace_oci_mt_mes_202409,pace_oci_mt_mes_202410,pace_oci_mt_mes_202411,pace_oci_mt_mes_202412,
-                                                    pace_oci_mt_mes_202501,pace_oci_mt_mes_202502,pace_oci_mt_mes_202503,pace_oci_mt_mes_202504,pace_oci_mt_mes_202505])
-                                                    .map(function(img){return img.updateMask(img.gte(0)).multiply(10000).toInt16().reproject('EPSG:4326', null, 4000).set(t,img.get(t))});
-exports.pace_oci_mt_mes = pace_oci_mt_mes;
-
-//
-
-var pace_oci_mt_mes_img = ee.Image.cat([pace_oci_mt_mes_202403,pace_oci_mt_mes_202404,pace_oci_mt_mes_202405,pace_oci_mt_mes_202406,pace_oci_mt_mes_202407,
-                                                    pace_oci_mt_mes_202408,pace_oci_mt_mes_202409,pace_oci_mt_mes_202410,pace_oci_mt_mes_202411,pace_oci_mt_mes_202412,
-                                                    pace_oci_mt_mes_202501,pace_oci_mt_mes_202502,pace_oci_mt_mes_202503,pace_oci_mt_mes_202504,pace_oci_mt_mes_202505]).multiply(10000).toInt16().reproject('EPSG:4326', null, 4000);
-exports.pace_oci_mt_mes_img = pace_oci_mt_mes_img;
-
-//
-
-function pace_mes(no){
-var imageList = pace_oci_mt_mes.toList(pace_oci_mt_mes.size());
-return ee.Image(imageList.get(no))}
-
-exports.pace_mes = pace_mes;
-
-//
-
-function conv_modis(img){
-
-return img.select(['b27','b43','b60','b110','b120','b121']).set(t,img.get(t));
-}
-
-exports.conv_modis = conv_modis;
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -202,8 +325,13 @@ var pace_oci_mt_global_202403 = ee.Image("projects/bz-sdg/compil_imagery/hypersp
     pace_oci_mt_global_202502 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/global_10km/globe_pace_oci_sr_v3_202502").set(t,ee.Date.fromYMD(2025,2,28).millis()),
     pace_oci_mt_global_202503 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/global_10km/globe_pace_oci_sr_v3_202503").set(t,ee.Date.fromYMD(2025,3,31).millis()),
     pace_oci_mt_global_202504 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/global_10km/globe_pace_oci_sr_v3_202504").set(t,ee.Date.fromYMD(2025,4,30).millis()),
-    pace_oci_mt_global_202505 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/global_10km/globe_pace_oci_sr_v3_202505x").set(t,ee.Date.fromYMD(2025,5,31).millis()),
-    pace_oci_mt_global_202506 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/global_10km/globe_pace_oci_sr_v3_202506x").set(t,ee.Date.fromYMD(2025,6,30).millis());
+    pace_oci_mt_global_202505 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/global_10km/globe_pace_oci_sr_v31_202505").set(t,ee.Date.fromYMD(2025,5,31).millis()),
+    pace_oci_mt_global_202506 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/global_10km/globe_pace_oci_sr_v31_202506").set(t,ee.Date.fromYMD(2025,6,30).millis()),
+    pace_oci_mt_global_202507 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/global_10km/globe_pace_oci_sr_v31_202507").set(t,ee.Date.fromYMD(2025,7,31).millis()),
+    pace_oci_mt_global_202508 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/global_10km/globe_pace_oci_sr_v31_202508").set(t,ee.Date.fromYMD(2025,8,31).millis()),
+    pace_oci_mt_global_202509 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/global_10km/globe_pace_oci_sr_v31_202509").set(t,ee.Date.fromYMD(2025,9,30).millis()),
+    pace_oci_mt_global_202510 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/global_10km/globe_pace_oci_sr_v31_202510").set(t,ee.Date.fromYMD(2025,10,31).millis()),
+    pace_oci_mt_global_202511 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/global_10km/globe_pace_oci_sr_v31_202511").set(t,ee.Date.fromYMD(2025,11,30).millis());
 
 exports.pace_oci_mt_global_202403 = pace_oci_mt_global_202403;
 exports.pace_oci_mt_global_202404 = pace_oci_mt_global_202404;
@@ -222,12 +350,18 @@ exports.pace_oci_mt_global_202503 = pace_oci_mt_global_202503;
 exports.pace_oci_mt_global_202504 = pace_oci_mt_global_202504;
 exports.pace_oci_mt_global_202505 = pace_oci_mt_global_202505;
 exports.pace_oci_mt_global_202506 = pace_oci_mt_global_202506;
+exports.pace_oci_mt_global_202507 = pace_oci_mt_global_202507;
+exports.pace_oci_mt_global_202508 = pace_oci_mt_global_202508;
+exports.pace_oci_mt_global_202509 = pace_oci_mt_global_202509;
+exports.pace_oci_mt_global_202510 = pace_oci_mt_global_202510;
+exports.pace_oci_mt_global_202511 = pace_oci_mt_global_202511;
 
 //
 var pace_oci_mt_global = ee.ImageCollection.fromImages([pace_oci_mt_global_202403,pace_oci_mt_global_202404,pace_oci_mt_global_202405,pace_oci_mt_global_202406,pace_oci_mt_global_202407,
                                                     pace_oci_mt_global_202408,pace_oci_mt_global_202409,pace_oci_mt_global_202410,pace_oci_mt_global_202411,pace_oci_mt_global_202412,
                                                     pace_oci_mt_global_202501,pace_oci_mt_global_202502,pace_oci_mt_global_202503,pace_oci_mt_global_202504,pace_oci_mt_global_202505,
-                                                    pace_oci_mt_global_202506])
+                                                    pace_oci_mt_global_202506,pace_oci_mt_global_202507,pace_oci_mt_global_202508,pace_oci_mt_global_202509,pace_oci_mt_global_202510,
+                                                    pace_oci_mt_global_202511])
                                                     .map(function(img){return img.updateMask(img.gte(0)).reproject('EPSG:4326', null, 10000).set(t,img.get(t))});
 exports.pace_oci_mt_global = pace_oci_mt_global;
 
@@ -246,13 +380,13 @@ exports.pace_oci_mt_global0 = pace_oci_mt_global0;
 
 var coll_vi = function(img) {
 
-var ndvi = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/8day_4km/vi_01_ndvi_b65_4km"),
-    evi = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/8day_4km/vi_02_evi_b65_4km"),
-    cci = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/8day_4km/vi_05_cci_b65_4km"),
-    cire = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/8day_4km/vi_07_cire_b65_4km"),
-    car = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/8day_4km/vi_08_car_b65_4km"),
-    mari = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/8day_4km/vi_09_mari_b65_4km"),
-    pri = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/8day_4km/vi_10_pri_b65_4km");
+var ndvi = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/8day_4km_/vi_01_ndvi_b70_4km"),
+    evi = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/8day_4km_/vi_02_evi_b70_4km"),
+    cci = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/8day_4km_/vi_05_cci_b70_4km"),
+    pri = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/8day_4km_/vi_07_pri_b70_4km"),
+    cire = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/8day_4km_/vi_08_cire_b70_4km"),
+    car = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/8day_4km_/vi_09_car_b70_4km"),
+    mari = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/8day_4km_/vi_10_mari_b70_4km");
 
 ndvi = ndvi.updateMask(ndvi.gte(-10000));
 evi = evi.updateMask(evi.gte(-10000));
@@ -327,13 +461,13 @@ var vi62 = ee.Image.cat(ndvi.select([61]),evi.select([61]),cci.select([61]),cire
 var vi63 = ee.Image.cat(ndvi.select([62]),evi.select([62]),cci.select([62]),cire.select([62]),car.select([62]),mari.select([62]),pri.select([62])).rename('ndvi','evi','cci','cire','car','mari','pri').set(t,ee.Date.fromYMD(2025,7,19).millis());
 var vi64 = ee.Image.cat(ndvi.select([63]),evi.select([63]),cci.select([63]),cire.select([63]),car.select([63]),mari.select([63]),pri.select([63])).rename('ndvi','evi','cci','cire','car','mari','pri').set(t,ee.Date.fromYMD(2025,7,27).millis());
 var vi65 = ee.Image.cat(ndvi.select([64]),evi.select([64]),cci.select([64]),cire.select([64]),car.select([64]),mari.select([64]),pri.select([64])).rename('ndvi','evi','cci','cire','car','mari','pri').set(t,ee.Date.fromYMD(2025,8,4).millis());
-
-/*
 var vi66 = ee.Image.cat(ndvi.select([65]),evi.select([65]),cci.select([65]),cire.select([65]),car.select([65]),mari.select([65]),pri.select([65])).rename('ndvi','evi','cci','cire','car','mari','pri').set(t,ee.Date.fromYMD(2025,8,12).millis());
 var vi67 = ee.Image.cat(ndvi.select([66]),evi.select([66]),cci.select([66]),cire.select([66]),car.select([66]),mari.select([66]),pri.select([66])).rename('ndvi','evi','cci','cire','car','mari','pri').set(t,ee.Date.fromYMD(2025,8,20).millis());
 var vi68 = ee.Image.cat(ndvi.select([67]),evi.select([67]),cci.select([67]),cire.select([67]),car.select([67]),mari.select([67]),pri.select([67])).rename('ndvi','evi','cci','cire','car','mari','pri').set(t,ee.Date.fromYMD(2025,8,28).millis());
 var vi69 = ee.Image.cat(ndvi.select([68]),evi.select([68]),cci.select([68]),cire.select([68]),car.select([68]),mari.select([68]),pri.select([68])).rename('ndvi','evi','cci','cire','car','mari','pri').set(t,ee.Date.fromYMD(2025,9,5).millis());
 var vi70 = ee.Image.cat(ndvi.select([69]),evi.select([69]),cci.select([69]),cire.select([69]),car.select([69]),mari.select([69]),pri.select([69])).rename('ndvi','evi','cci','cire','car','mari','pri').set(t,ee.Date.fromYMD(2025,9,13).millis());
+
+/*
 var vi71 = ee.Image.cat(ndvi.select([70]),evi.select([70]),cci.select([70]),cire.select([70]),car.select([70]),mari.select([70]),pri.select([70])).rename('ndvi','evi','cci','cire','car','mari','pri').set(t,ee.Date.fromYMD(2025,9,21).millis());
 var vi72 = ee.Image.cat(ndvi.select([71]),evi.select([71]),cci.select([71]),cire.select([71]),car.select([71]),mari.select([71]),pri.select([71])).rename('ndvi','evi','cci','cire','car','mari','pri').set(t,ee.Date.fromYMD(2025,9,29).millis());
 var vi73 = ee.Image.cat(ndvi.select([72]),evi.select([72]),cci.select([72]),cire.select([72]),car.select([72]),mari.select([72]),pri.select([72])).rename('ndvi','evi','cci','cire','car','mari','pri').set(t,ee.Date.fromYMD(2025,10,7).millis());
@@ -360,10 +494,10 @@ vi21,vi22,vi23,vi24,vi25,vi26,vi27,vi28,vi29,vi30,
 vi31,vi32,vi33,vi34,vi35,vi36,vi37,vi38,vi39,vi40,
 vi41,vi42,vi43,vi44,vi45,vi46,vi47,vi48,vi49,vi50,
 vi51,vi52,vi53,vi54,vi55,vi56,vi57,vi58,vi59,vi60,
-vi61,vi62,vi63,vi64,vi65
+vi61,vi62,vi63,vi64,vi65,vi66,vi67,vi68,vi69,vi70
 
 /*
-,vi66,vi67,vi68,vi69,vi70,
+,
 vi71,vi72,vi73,vi74,vi75,vi76,vi77,vi78,vi79,vi80,
 vi81,vi82,vi83,vi84
 */
@@ -450,14 +584,13 @@ var vi62 = ee.Image.cat(img.select([61])).rename('vi').set(t,ee.Date.fromYMD(202
 var vi63 = ee.Image.cat(img.select([62])).rename('vi').set(t,ee.Date.fromYMD(2025,7,19).millis());
 var vi64 = ee.Image.cat(img.select([63])).rename('vi').set(t,ee.Date.fromYMD(2025,7,27).millis());
 var vi65 = ee.Image.cat(img.select([64])).rename('vi').set(t,ee.Date.fromYMD(2025,8,4).millis());
-
-
-/*
 var vi66 = ee.Image.cat(img.select([65])).rename('vi').set(t,ee.Date.fromYMD(2025,8,12).millis());
 var vi67 = ee.Image.cat(img.select([66])).rename('vi').set(t,ee.Date.fromYMD(2025,8,20).millis());
 var vi68 = ee.Image.cat(img.select([67])).rename('vi').set(t,ee.Date.fromYMD(2025,8,28).millis());
 var vi69 = ee.Image.cat(img.select([68])).rename('vi').set(t,ee.Date.fromYMD(2025,9,5).millis());
 var vi70 = ee.Image.cat(img.select([69])).rename('vi').set(t,ee.Date.fromYMD(2025,9,13).millis());
+
+/*
 var vi71 = ee.Image.cat(img.select([70])).rename('vi').set(t,ee.Date.fromYMD(2025,9,21).millis());
 var vi72 = ee.Image.cat(img.select([71])).rename('vi').set(t,ee.Date.fromYMD(2025,9,29).millis());
 var vi73 = ee.Image.cat(img.select([72])).rename('vi').set(t,ee.Date.fromYMD(2025,10,7).millis());
@@ -481,10 +614,10 @@ vi21,vi22,vi23,vi24,vi25,vi26,vi27,vi28,vi29,vi30,
 vi31,vi32,vi33,vi34,vi35,vi36,vi37,vi38,vi39,vi40,
 vi41,vi42,vi43,vi44,vi45,vi46,vi47,vi48,vi49,vi50,
 vi51,vi52,vi53,vi54,vi55,vi56,vi57,vi58,vi59,vi60,
-vi61,vi62,vi63,vi64,vi65
+vi61,vi62,vi63,vi64,vi65,vi66,vi67,vi68,vi69,vi70
 
 /*
-,vi66,vi67,vi68,vi69,vi70,
+,
 vi71,vi72,vi73,vi74,vi75,vi76,vi77,vi78,vi79,vi80,
 vi81,vi82,vi83,vi84
 */
@@ -498,13 +631,13 @@ vi81,vi82,vi83,vi84
 
 // DATA AS SINGLE IMAGES
 
-var pace_oci_global_ndvi = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/8day_4km/vi_01_ndvi_b65_4km"),
-    pace_oci_global_evi = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/8day_4km/vi_02_evi_b65_4km"),
-    pace_oci_global_cci = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/8day_4km/vi_05_cci_b65_4km"),
-    pace_oci_global_cire = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/8day_4km/vi_07_cire_b65_4km"),
-    pace_oci_global_car = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/8day_4km/vi_08_car_b65_4km"),
-    pace_oci_global_mari = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/8day_4km/vi_09_mari_b65_4km"),
-    pace_oci_global_pri = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/8day_4km/vi_10_pri_b65_4km");
+var pace_oci_global_ndvi = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/8day_4km_/vi_01_ndvi_b70_4km"),
+    pace_oci_global_evi = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/8day_4km_/vi_02_evi_b70_4km"),
+    pace_oci_global_cci = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/8day_4km_/vi_05_cci_b70_4km"),
+    pace_oci_global_pri = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/8day_4km_/vi_07_pri_b70_4km"),
+    pace_oci_global_cire = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/8day_4km_/vi_08_cire_b70_4km"),
+    pace_oci_global_car = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/8day_4km_/vi_09_car_b70_4km"),
+    pace_oci_global_mari = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/8day_4km_/vi_10_mari_b70_4km");
 
 pace_oci_global_ndvi = pace_oci_global_ndvi.updateMask(pace_oci_global_ndvi.gte(-10000));
 pace_oci_global_evi = pace_oci_global_evi.updateMask(pace_oci_global_evi.gte(-10000));
@@ -565,26 +698,31 @@ exports.pace_oci_8d_bz_vi = pace_oci_8d_bz_vi;
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// DOMAIN: GLOBAL | SPATIAL RES: 4.638 KM | TEMPORAL RES: MONTHLY
+// DOMAIN: GLOBAL | SPATIAL RES: 2 KM | TEMPORAL RES: MONTHLY
 
 // DATA AS SINGLE IMAGES
 
-var pace_oci_mt_vi_202403 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202403_L3m_MO_LANDVI_V3').set(t,ee.Date.fromYMD(2024,3,31).millis());
-var pace_oci_mt_vi_202404 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202404_L3m_MO_LANDVI_V3').set(t,ee.Date.fromYMD(2024,4,30).millis());
-var pace_oci_mt_vi_202405 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202405_L3m_MO_LANDVI_V3').set(t,ee.Date.fromYMD(2024,5,31).millis());
-var pace_oci_mt_vi_202406 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202406_L3m_MO_LANDVI_V3').set(t,ee.Date.fromYMD(2024,6,30).millis());
-var pace_oci_mt_vi_202407 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202407_L3m_MO_LANDVI_V3').set(t,ee.Date.fromYMD(2024,7,31).millis());
-var pace_oci_mt_vi_202408 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202408_L3m_MO_LANDVI_V3').set(t,ee.Date.fromYMD(2024,8,31).millis());
-var pace_oci_mt_vi_202409 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202409_L3m_MO_LANDVI_V3').set(t,ee.Date.fromYMD(2024,9,30).millis());
-var pace_oci_mt_vi_202410 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202410_L3m_MO_LANDVI_V3').set(t,ee.Date.fromYMD(2024,10,31).millis());
-var pace_oci_mt_vi_202411 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202411_L3m_MO_LANDVI_V3').set(t,ee.Date.fromYMD(2024,11,30).millis());
-var pace_oci_mt_vi_202412 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202412_L3m_MO_LANDVI_V3').set(t,ee.Date.fromYMD(2024,12,31).millis());
-var pace_oci_mt_vi_202501 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202501_L3m_MO_LANDVI_V3').set(t,ee.Date.fromYMD(2025,1,31).millis());
-var pace_oci_mt_vi_202502 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202502_L3m_MO_LANDVI_V3').set(t,ee.Date.fromYMD(2025,2,28).millis());
-var pace_oci_mt_vi_202503 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202503_L3m_MO_LANDVI_V3').set(t,ee.Date.fromYMD(2025,3,31).millis());
-var pace_oci_mt_vi_202504 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202504_L3m_MO_LANDVI_V3').set(t,ee.Date.fromYMD(2025,4,30).millis());
-var pace_oci_mt_vi_202505 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202505x_L3m_MO_LANDVI_V3').set(t,ee.Date.fromYMD(2025,5,31).millis());
-var pace_oci_mt_vi_202506 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202506x_L3m_MO_LANDVI_V3').set(t,ee.Date.fromYMD(2025,6,30).millis());
+var pace_oci_mt_vi_202403 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202403_L3m_MO_LANDVI_V3_1').set(t,ee.Date.fromYMD(2024,3,31).millis());
+var pace_oci_mt_vi_202404 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202404_L3m_MO_LANDVI_V3_1').set(t,ee.Date.fromYMD(2024,4,30).millis());
+var pace_oci_mt_vi_202405 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202405_L3m_MO_LANDVI_V3_1').set(t,ee.Date.fromYMD(2024,5,31).millis());
+var pace_oci_mt_vi_202406 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202406_L3m_MO_LANDVI_V3_1').set(t,ee.Date.fromYMD(2024,6,30).millis());
+var pace_oci_mt_vi_202407 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202407_L3m_MO_LANDVI_V3_1').set(t,ee.Date.fromYMD(2024,7,31).millis());
+var pace_oci_mt_vi_202408 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202408_L3m_MO_LANDVI_V3_1').set(t,ee.Date.fromYMD(2024,8,31).millis());
+var pace_oci_mt_vi_202409 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202409_L3m_MO_LANDVI_V3_1').set(t,ee.Date.fromYMD(2024,9,30).millis());
+var pace_oci_mt_vi_202410 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202410_L3m_MO_LANDVI_V3_1').set(t,ee.Date.fromYMD(2024,10,31).millis());
+var pace_oci_mt_vi_202411 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202411_L3m_MO_LANDVI_V3_1').set(t,ee.Date.fromYMD(2024,11,30).millis());
+var pace_oci_mt_vi_202412 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202412_L3m_MO_LANDVI_V3_1').set(t,ee.Date.fromYMD(2024,12,31).millis());
+var pace_oci_mt_vi_202501 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202501_L3m_MO_LANDVI_V3_1').set(t,ee.Date.fromYMD(2025,1,31).millis());
+var pace_oci_mt_vi_202502 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202502_L3m_MO_LANDVI_V3_1').set(t,ee.Date.fromYMD(2025,2,28).millis());
+var pace_oci_mt_vi_202503 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202503_L3m_MO_LANDVI_V3_1').set(t,ee.Date.fromYMD(2025,3,31).millis());
+var pace_oci_mt_vi_202504 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202504_L3m_MO_LANDVI_V3_1').set(t,ee.Date.fromYMD(2025,4,30).millis());
+var pace_oci_mt_vi_202505 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202505_L3m_MO_LANDVI_V3_1').set(t,ee.Date.fromYMD(2025,5,31).millis());
+var pace_oci_mt_vi_202506 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202506_L3m_MO_LANDVI_V3_1').set(t,ee.Date.fromYMD(2025,6,30).millis());
+var pace_oci_mt_vi_202507 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202507_L3m_MO_LANDVI_V3_1').set(t,ee.Date.fromYMD(2025,7,31).millis());
+var pace_oci_mt_vi_202508 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202508_L3m_MO_LANDVI_V3_1').set(t,ee.Date.fromYMD(2025,8,31).millis());
+var pace_oci_mt_vi_202509 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202509_L3m_MO_LANDVI_V3_1').set(t,ee.Date.fromYMD(2025,9,30).millis());
+var pace_oci_mt_vi_202510 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202510_L3m_MO_LANDVI_V3_1').set(t,ee.Date.fromYMD(2025,10,31).millis());
+var pace_oci_mt_vi_202511 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202511_L3m_MO_LANDVI_V3_1').set(t,ee.Date.fromYMD(2025,11,30).millis());
 
 exports.pace_oci_mt_vi_202403 = pace_oci_mt_vi_202403;
 exports.pace_oci_mt_vi_202404 = pace_oci_mt_vi_202404;
@@ -602,17 +740,347 @@ exports.pace_oci_mt_vi_202503 = pace_oci_mt_vi_202503;
 exports.pace_oci_mt_vi_202504 = pace_oci_mt_vi_202504;
 exports.pace_oci_mt_vi_202505 = pace_oci_mt_vi_202505;
 exports.pace_oci_mt_vi_202506 = pace_oci_mt_vi_202506;
+exports.pace_oci_mt_vi_202507 = pace_oci_mt_vi_202507;
+exports.pace_oci_mt_vi_202508 = pace_oci_mt_vi_202508;
+exports.pace_oci_mt_vi_202509 = pace_oci_mt_vi_202509;
+exports.pace_oci_mt_vi_202510 = pace_oci_mt_vi_202510;
+exports.pace_oci_mt_vi_202511 = pace_oci_mt_vi_202511;
 
 //
 var pace_oci_mt_global_vi = ee.ImageCollection.fromImages([
 pace_oci_mt_vi_202403,pace_oci_mt_vi_202404,pace_oci_mt_vi_202405,pace_oci_mt_vi_202406,pace_oci_mt_vi_202407,
 pace_oci_mt_vi_202408,pace_oci_mt_vi_202409,pace_oci_mt_vi_202410,pace_oci_mt_vi_202411,pace_oci_mt_vi_202412,
 pace_oci_mt_vi_202501,pace_oci_mt_vi_202502,pace_oci_mt_vi_202503,pace_oci_mt_vi_202504,pace_oci_mt_vi_202505,
-pace_oci_mt_vi_202506])
+pace_oci_mt_vi_202506,pace_oci_mt_vi_202507,pace_oci_mt_vi_202508,pace_oci_mt_vi_202509,pace_oci_mt_vi_202510,
+pace_oci_mt_vi_202511])
 .map(function(img){return img.updateMask(img.gte(-1)).multiply(10000).rename(["ndvi","evi","ndwi","ndii","cci","ndsi","pri","cire","car","mari"]).set(t,img.get(t));
 });
 
 exports.pace_oci_mt_global_vi = pace_oci_mt_global_vi;
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// CHLOROPHYLL A
+// DOMAIN: GLOBAL | SPATIAL RES: 4 KM  | TEMPORAL RES: 8 DAY
+
+//var chl_a = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_chlor_a/8day_4km/pace_oci_20240305_20251023_l3m_8d_chlor_a_v3_x100");
+var chl_a = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_chlor_a/8day_4km/pace_oci_20240305_20251124_l3m_8d_chlor_a_v31_x100");
+
+/////
+var coll_chl = function(img) {
+
+var chl01 = ee.Image.cat(img.select([0])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,3,12).millis());
+var chl02 = ee.Image.cat(img.select([1])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,3,20).millis());
+var chl03 = ee.Image.cat(img.select([2])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,3,28).millis());
+var chl04 = ee.Image.cat(img.select([3])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,4,5).millis());
+var chl05 = ee.Image.cat(img.select([4])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,4,13).millis());
+var chl06 = ee.Image.cat(img.select([5])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,4,21).millis());
+var chl07 = ee.Image.cat(img.select([6])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,4,29).millis());
+var chl08 = ee.Image.cat(img.select([7])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,5,7).millis());
+var chl09 = ee.Image.cat(img.select([8])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,5,15).millis());
+var chl10 = ee.Image.cat(img.select([9])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,5,23).millis());
+var chl11 = ee.Image.cat(img.select([10])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,5,31).millis());
+var chl12 = ee.Image.cat(img.select([11])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,6,8).millis());
+var chl13 = ee.Image.cat(img.select([12])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,6,16).millis());
+var chl14 = ee.Image.cat(img.select([13])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,6,24).millis());
+var chl15 = ee.Image.cat(img.select([14])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,7,2).millis());
+var chl16 = ee.Image.cat(img.select([15])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,7,10).millis());
+var chl17 = ee.Image.cat(img.select([16])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,7,18).millis());
+var chl18 = ee.Image.cat(img.select([17])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,7,26).millis());
+var chl19 = ee.Image.cat(img.select([18])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,8,3).millis());
+var chl20 = ee.Image.cat(img.select([19])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,8,11).millis());
+var chl21 = ee.Image.cat(img.select([20])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,8,19).millis());
+var chl22 = ee.Image.cat(img.select([21])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,8,27).millis());
+var chl23 = ee.Image.cat(img.select([22])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,9,4).millis());
+var chl24 = ee.Image.cat(img.select([23])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,9,12).millis());
+var chl25 = ee.Image.cat(img.select([24])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,9,20).millis());
+var chl26 = ee.Image.cat(img.select([25])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,9,28).millis());
+var chl27 = ee.Image.cat(img.select([26])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,10,6).millis());
+var chl28 = ee.Image.cat(img.select([27])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,10,14).millis());
+var chl29 = ee.Image.cat(img.select([28])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,10,22).millis());
+var chl30 = ee.Image.cat(img.select([29])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,10,30).millis());
+var chl31 = ee.Image.cat(img.select([30])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,11,7).millis());
+var chl32 = ee.Image.cat(img.select([31])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,11,15).millis());
+var chl33 = ee.Image.cat(img.select([32])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,11,23).millis());
+var chl34 = ee.Image.cat(img.select([33])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,12,1).millis());
+var chl35 = ee.Image.cat(img.select([34])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,12,9).millis());
+var chl36 = ee.Image.cat(img.select([35])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,12,17).millis());
+var chl37 = ee.Image.cat(img.select([36])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,12,25).millis());
+var chl38 = ee.Image.cat(img.select([37])).rename('chlor_a').set(t,ee.Date.fromYMD(2024,12,31).millis());
+var chl39 = ee.Image.cat(img.select([38])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,1,8).millis());
+var chl40 = ee.Image.cat(img.select([39])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,1,16).millis());
+var chl41 = ee.Image.cat(img.select([40])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,1,24).millis());
+var chl42 = ee.Image.cat(img.select([41])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,2,1).millis());
+var chl43 = ee.Image.cat(img.select([42])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,2,9).millis());
+var chl44 = ee.Image.cat(img.select([43])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,2,17).millis());
+var chl45 = ee.Image.cat(img.select([44])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,2,25).millis());
+var chl46 = ee.Image.cat(img.select([45])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,3,5).millis());
+var chl47 = ee.Image.cat(img.select([46])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,3,13).millis());
+var chl48 = ee.Image.cat(img.select([47])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,3,21).millis());
+var chl49 = ee.Image.cat(img.select([48])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,3,29).millis());
+var chl50 = ee.Image.cat(img.select([49])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,4,6).millis());
+var chl51 = ee.Image.cat(img.select([50])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,4,14).millis());
+var chl52 = ee.Image.cat(img.select([51])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,4,22).millis());
+var chl53 = ee.Image.cat(img.select([52])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,4,30).millis());
+var chl54 = ee.Image.cat(img.select([53])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,5,8).millis());
+var chl55 = ee.Image.cat(img.select([54])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,5,16).millis());
+var chl56 = ee.Image.cat(img.select([55])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,5,24).millis());
+var chl57 = ee.Image.cat(img.select([56])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,6,1).millis());
+var chl58 = ee.Image.cat(img.select([57])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,6,9).millis());
+var chl59 = ee.Image.cat(img.select([58])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,6,17).millis());
+var chl60 = ee.Image.cat(img.select([59])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,6,25).millis());
+var chl61 = ee.Image.cat(img.select([60])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,7,3).millis());
+var chl62 = ee.Image.cat(img.select([61])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,7,11).millis());
+var chl63 = ee.Image.cat(img.select([62])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,7,19).millis());
+var chl64 = ee.Image.cat(img.select([63])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,7,27).millis());
+var chl65 = ee.Image.cat(img.select([64])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,8,4).millis());
+var chl66 = ee.Image.cat(img.select([65])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,8,12).millis());
+var chl67 = ee.Image.cat(img.select([66])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,8,20).millis());
+var chl68 = ee.Image.cat(img.select([67])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,8,28).millis());
+var chl69 = ee.Image.cat(img.select([68])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,9,5).millis());
+var chl70 = ee.Image.cat(img.select([69])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,9,13).millis());
+var chl71 = ee.Image.cat(img.select([70])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,9,21).millis());
+var chl72 = ee.Image.cat(img.select([71])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,9,29).millis());
+var chl73 = ee.Image.cat(img.select([72])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,10,7).millis());
+var chl74 = ee.Image.cat(img.select([73])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,10,15).millis());
+var chl75 = ee.Image.cat(img.select([74])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,10,23).millis());
+var chl76 = ee.Image.cat(img.select([75])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,10,31).millis());
+var chl77 = ee.Image.cat(img.select([76])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,11,8).millis());
+var chl78 = ee.Image.cat(img.select([77])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,11,16).millis());
+var chl79 = ee.Image.cat(img.select([78])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,11,24).millis());
+
+/*
+var chl80 = ee.Image.cat(img.select([79])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,12,2).millis());
+var chl81 = ee.Image.cat(img.select([80])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,12,10).millis());
+var chl82 = ee.Image.cat(img.select([81])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,12,18).millis());
+var chl83 = ee.Image.cat(img.select([82])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,12,26).millis());
+var chl84 = ee.Image.cat(img.select([83])).rename('chlor_a').set(t,ee.Date.fromYMD(2026,1,3).millis());
+*/
+
+return ee.ImageCollection.fromImages(
+[chl01,chl02,chl03,chl04,chl05,chl06,chl07,chl08,chl09,chl10,
+chl11,chl12,chl13,chl14,chl15,chl16,chl17,chl18,chl19,chl20,
+chl21,chl22,chl23,chl24,chl25,chl26,chl27,chl28,chl29,chl30,
+chl31,chl32,chl33,chl34,chl35,chl36,chl37,chl38,chl39,chl40,
+chl41,chl42,chl43,chl44,chl45,chl46,chl47,chl48,chl49,chl50,
+chl51,chl52,chl53,chl54,chl55,chl56,chl57,chl58,chl59,chl60,
+chl61,chl62,chl63,chl64,chl65,chl66,chl67,chl68,chl69,chl70,
+chl71,chl72,chl73,chl74,chl75
+
+/*
+,chl76,chl77,chl78,chl79,chl80,
+chl81,chl82,chl83,chl84
+*/
+])
+//.map(function(img){return img.select(['b.*'],['chl'])})
+.map(function(img){return img.divide(100).set(t,img.get(t))})  };
+
+//
+var pace_oci_8d_global_chlor_a = coll_chl(chl_a);
+exports. pace_oci_8d_global_chlor_a =  pace_oci_8d_global_chlor_a;
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// REMOTE SENSING REFLECTANCE (RRS)
+
+// DOMAIN: CONTINENTAL USA (CONUS) | SPATIAL RES: 4 KM  | TEMPORAL RES: MONTHLY | all from version 3.1 reprocessing
+
+var pace_oci_rrs_mt_conus_202403 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/conus_04km/conus_pace_oci_rrs_202403_4km").set(t,ee.Date.fromYMD(2024,3,31).millis()), 
+    pace_oci_rrs_mt_conus_202404 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/conus_04km/conus_pace_oci_rrs_202404_4km").set(t,ee.Date.fromYMD(2024,4,30).millis()),
+    pace_oci_rrs_mt_conus_202405 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/conus_04km/conus_pace_oci_rrs_202405_4km").set(t,ee.Date.fromYMD(2024,5,31).millis()),
+    pace_oci_rrs_mt_conus_202406 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/conus_04km/conus_pace_oci_rrs_202406_4km").set(t,ee.Date.fromYMD(2024,6,30).millis()),
+    pace_oci_rrs_mt_conus_202407 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/conus_04km/conus_pace_oci_rrs_202407_4km").set(t,ee.Date.fromYMD(2024,7,31).millis()),
+    pace_oci_rrs_mt_conus_202408 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/conus_04km/conus_pace_oci_rrs_202408_4km").set(t,ee.Date.fromYMD(2024,8,31).millis()),
+    pace_oci_rrs_mt_conus_202409 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/conus_04km/conus_pace_oci_rrs_202409_4km").set(t,ee.Date.fromYMD(2024,9,30).millis()),
+    pace_oci_rrs_mt_conus_202410 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/conus_04km/conus_pace_oci_rrs_202410_4km").set(t,ee.Date.fromYMD(2024,10,31).millis()),
+    pace_oci_rrs_mt_conus_202411 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/conus_04km/conus_pace_oci_rrs_202411_4km").set(t,ee.Date.fromYMD(2024,11,30).millis()),
+    pace_oci_rrs_mt_conus_202412 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/conus_04km/conus_pace_oci_rrs_202412_4km").set(t,ee.Date.fromYMD(2024,12,31).millis()),
+    pace_oci_rrs_mt_conus_202501 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/conus_04km/conus_pace_oci_rrs_202501_4km").set(t,ee.Date.fromYMD(2025,1,31).millis()),
+    pace_oci_rrs_mt_conus_202502 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/conus_04km/conus_pace_oci_rrs_202502_4km").set(t,ee.Date.fromYMD(2025,2,28).millis()),
+    pace_oci_rrs_mt_conus_202503 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/conus_04km/conus_pace_oci_rrs_202503_4km").set(t,ee.Date.fromYMD(2025,3,31).millis()),
+    pace_oci_rrs_mt_conus_202504 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/conus_04km/conus_pace_oci_rrs_202504_4km").set(t,ee.Date.fromYMD(2025,4,30).millis()),
+    pace_oci_rrs_mt_conus_202505 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/conus_04km/conus_pace_oci_rrs_202505_4km").set(t,ee.Date.fromYMD(2025,5,31).millis()),
+    pace_oci_rrs_mt_conus_202506 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/conus_04km/conus_pace_oci_rrs_202506_4km").set(t,ee.Date.fromYMD(2025,6,30).millis()),
+    pace_oci_rrs_mt_conus_202507 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/conus_04km/conus_pace_oci_rrs_202507_4km").set(t,ee.Date.fromYMD(2025,7,31).millis()),
+    pace_oci_rrs_mt_conus_202508 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/conus_04km/conus_pace_oci_rrs_202508_4km").set(t,ee.Date.fromYMD(2025,8,31).millis()),
+    pace_oci_rrs_mt_conus_202509 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/conus_04km/conus_pace_oci_rrs_202509_4km").set(t,ee.Date.fromYMD(2025,9,30).millis()),
+    pace_oci_rrs_mt_conus_202510 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/conus_04km/conus_pace_oci_rrs_202510_4km").set(t,ee.Date.fromYMD(2025,10,31).millis()),
+    pace_oci_rrs_mt_conus_202511 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/conus_04km/conus_pace_oci_rrs_202511_4km").set(t,ee.Date.fromYMD(2025,11,30).millis());
+
+exports.pace_oci_rrs_mt_conus_202403 = pace_oci_rrs_mt_conus_202403;
+exports.pace_oci_rrs_mt_conus_202404 = pace_oci_rrs_mt_conus_202404;
+exports.pace_oci_rrs_mt_conus_202405 = pace_oci_rrs_mt_conus_202405;
+exports.pace_oci_rrs_mt_conus_202406 = pace_oci_rrs_mt_conus_202406;
+exports.pace_oci_rrs_mt_conus_202407 = pace_oci_rrs_mt_conus_202407;
+exports.pace_oci_rrs_mt_conus_202408 = pace_oci_rrs_mt_conus_202408;
+exports.pace_oci_rrs_mt_conus_202409 = pace_oci_rrs_mt_conus_202409;
+exports.pace_oci_rrs_mt_conus_202410 = pace_oci_rrs_mt_conus_202410;
+exports.pace_oci_rrs_mt_conus_202411 = pace_oci_rrs_mt_conus_202411;
+exports.pace_oci_rrs_mt_conus_202412 = pace_oci_rrs_mt_conus_202412;
+
+exports.pace_oci_rrs_mt_conus_202501 = pace_oci_rrs_mt_conus_202501;
+exports.pace_oci_rrs_mt_conus_202502 = pace_oci_rrs_mt_conus_202502;
+exports.pace_oci_rrs_mt_conus_202503 = pace_oci_rrs_mt_conus_202503;
+exports.pace_oci_rrs_mt_conus_202504 = pace_oci_rrs_mt_conus_202504;
+exports.pace_oci_rrs_mt_conus_202505 = pace_oci_rrs_mt_conus_202505;
+exports.pace_oci_rrs_mt_conus_202506 = pace_oci_rrs_mt_conus_202506;
+exports.pace_oci_rrs_mt_conus_202507 = pace_oci_rrs_mt_conus_202507;
+exports.pace_oci_rrs_mt_conus_202508 = pace_oci_rrs_mt_conus_202508;
+exports.pace_oci_rrs_mt_conus_202509 = pace_oci_rrs_mt_conus_202509;
+exports.pace_oci_rrs_mt_conus_202510 = pace_oci_rrs_mt_conus_202510;
+exports.pace_oci_rrs_mt_conus_202511 = pace_oci_rrs_mt_conus_202511;
+
+//
+
+var pace_oci_rrs_mt_conus = ee.ImageCollection.fromImages([
+                                                    pace_oci_rrs_mt_conus_202403, pace_oci_rrs_mt_conus_202404,pace_oci_rrs_mt_conus_202405,pace_oci_rrs_mt_conus_202406,pace_oci_rrs_mt_conus_202407,
+                                                    pace_oci_rrs_mt_conus_202408, pace_oci_rrs_mt_conus_202409,pace_oci_rrs_mt_conus_202410,pace_oci_rrs_mt_conus_202411,pace_oci_rrs_mt_conus_202412,
+                                                    pace_oci_rrs_mt_conus_202501,pace_oci_rrs_mt_conus_202502,pace_oci_rrs_mt_conus_202503,pace_oci_rrs_mt_conus_202504,pace_oci_rrs_mt_conus_202505,
+                                                    pace_oci_rrs_mt_conus_202506,pace_oci_rrs_mt_conus_202507,pace_oci_rrs_mt_conus_202508,pace_oci_rrs_mt_conus_202509,pace_oci_rrs_mt_conus_202510,
+                                                    pace_oci_rrs_mt_conus_202511])
+                                                    .map(function(img){return img.updateMask(img.gt(-32767))
+                                                    .multiply(0.000002).add(0.05).multiply(10000).toInt16()
+                                                    //.select(a.bands_oci_rrs_orig, a.bands_oci_rrs_mod)
+                                                    .set(t,img.get(t))});
+
+exports.pace_oci_rrs_mt_conus = pace_oci_rrs_mt_conus;
+
+/*
+var test = pace_oci_rrs_mt_conus.filterDate("2024-03-31T00:00","2024-03-31T23:59").select(a.bands_oci_rrs_mod)
+print(a.wl_modis)
+print(test)
+*/
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// DOMAIN: EAST AFRICA | SPATIAL RES: 4 KM  | TEMPORAL RES: MONTHLY | all from version 3.1 reprocessing
+
+var pace_oci_rrs_mt_africa_east_202403 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/africa_04km/africa_east_pace_oci_rrs_202403_4km").set(t,ee.Date.fromYMD(2024,3,31).millis()), 
+    pace_oci_rrs_mt_africa_east_202404 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/africa_04km/africa_east_pace_oci_rrs_202404_4km").set(t,ee.Date.fromYMD(2024,4,30).millis()),
+    pace_oci_rrs_mt_africa_east_202405 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/africa_04km/africa_east_pace_oci_rrs_202405_4km").set(t,ee.Date.fromYMD(2024,5,31).millis()),
+    pace_oci_rrs_mt_africa_east_202406 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/africa_04km/africa_east_pace_oci_rrs_202406_4km").set(t,ee.Date.fromYMD(2024,6,30).millis()),
+    pace_oci_rrs_mt_africa_east_202407 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/africa_04km/africa_east_pace_oci_rrs_202407_4km").set(t,ee.Date.fromYMD(2024,7,31).millis()),
+    pace_oci_rrs_mt_africa_east_202408 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/africa_04km/africa_east_pace_oci_rrs_202408_4km").set(t,ee.Date.fromYMD(2024,8,31).millis()),
+    pace_oci_rrs_mt_africa_east_202409 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/africa_04km/africa_east_pace_oci_rrs_202409_4km").set(t,ee.Date.fromYMD(2024,9,30).millis()),
+    pace_oci_rrs_mt_africa_east_202410 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/africa_04km/africa_east_pace_oci_rrs_202410_4km").set(t,ee.Date.fromYMD(2024,10,31).millis()),
+    pace_oci_rrs_mt_africa_east_202411 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/africa_04km/africa_east_pace_oci_rrs_202411_4km").set(t,ee.Date.fromYMD(2024,11,30).millis()),
+    pace_oci_rrs_mt_africa_east_202412 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/africa_04km/africa_east_pace_oci_rrs_202412_4km").set(t,ee.Date.fromYMD(2024,12,31).millis()),
+    pace_oci_rrs_mt_africa_east_202501 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/africa_04km/africa_east_pace_oci_rrs_202501_4km").set(t,ee.Date.fromYMD(2025,1,31).millis()),
+    pace_oci_rrs_mt_africa_east_202502 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/africa_04km/africa_east_pace_oci_rrs_202502_4km").set(t,ee.Date.fromYMD(2025,2,28).millis()),
+    pace_oci_rrs_mt_africa_east_202503 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/africa_04km/africa_east_pace_oci_rrs_202503_4km").set(t,ee.Date.fromYMD(2025,3,31).millis()),
+    pace_oci_rrs_mt_africa_east_202504 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/africa_04km/africa_east_pace_oci_rrs_202504_4km").set(t,ee.Date.fromYMD(2025,4,30).millis()),
+    pace_oci_rrs_mt_africa_east_202505 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/africa_04km/africa_east_pace_oci_rrs_202505_4km").set(t,ee.Date.fromYMD(2025,5,31).millis()),
+    pace_oci_rrs_mt_africa_east_202506 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/africa_04km/africa_east_pace_oci_rrs_202506_4km").set(t,ee.Date.fromYMD(2025,6,30).millis()),
+    pace_oci_rrs_mt_africa_east_202507 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/africa_04km/africa_east_pace_oci_rrs_202507_4km").set(t,ee.Date.fromYMD(2025,7,31).millis()),
+    pace_oci_rrs_mt_africa_east_202508 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/africa_04km/africa_east_pace_oci_rrs_202508_4km").set(t,ee.Date.fromYMD(2025,8,31).millis()),
+    pace_oci_rrs_mt_africa_east_202509 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/africa_04km/africa_east_pace_oci_rrs_202509_4km").set(t,ee.Date.fromYMD(2025,9,30).millis()),
+    pace_oci_rrs_mt_africa_east_202510 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/africa_04km/africa_east_pace_oci_rrs_202510_4km").set(t,ee.Date.fromYMD(2025,10,31).millis()),
+    pace_oci_rrs_mt_africa_east_202511 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/africa_04km/africa_east_pace_oci_rrs_202511_4km").set(t,ee.Date.fromYMD(2025,11,30).millis());
+
+exports.pace_oci_rrs_mt_africa_east_202403 = pace_oci_rrs_mt_africa_east_202403;
+exports.pace_oci_rrs_mt_africa_east_202404 = pace_oci_rrs_mt_africa_east_202404;
+exports.pace_oci_rrs_mt_africa_east_202405 = pace_oci_rrs_mt_africa_east_202405;
+exports.pace_oci_rrs_mt_africa_east_202406 = pace_oci_rrs_mt_africa_east_202406;
+exports.pace_oci_rrs_mt_africa_east_202407 = pace_oci_rrs_mt_africa_east_202407;
+exports.pace_oci_rrs_mt_africa_east_202408 = pace_oci_rrs_mt_africa_east_202408;
+exports.pace_oci_rrs_mt_africa_east_202409 = pace_oci_rrs_mt_africa_east_202409;
+exports.pace_oci_rrs_mt_africa_east_202410 = pace_oci_rrs_mt_africa_east_202410;
+exports.pace_oci_rrs_mt_africa_east_202411 = pace_oci_rrs_mt_africa_east_202411;
+exports.pace_oci_rrs_mt_africa_east_202412 = pace_oci_rrs_mt_africa_east_202412;
+
+exports.pace_oci_rrs_mt_africa_east_202501 = pace_oci_rrs_mt_africa_east_202501;
+exports.pace_oci_rrs_mt_africa_east_202502 = pace_oci_rrs_mt_africa_east_202502;
+exports.pace_oci_rrs_mt_africa_east_202503 = pace_oci_rrs_mt_africa_east_202503;
+exports.pace_oci_rrs_mt_africa_east_202504 = pace_oci_rrs_mt_africa_east_202504;
+exports.pace_oci_rrs_mt_africa_east_202505 = pace_oci_rrs_mt_africa_east_202505;
+exports.pace_oci_rrs_mt_africa_east_202506 = pace_oci_rrs_mt_africa_east_202506;
+exports.pace_oci_rrs_mt_africa_east_202507 = pace_oci_rrs_mt_africa_east_202507;
+exports.pace_oci_rrs_mt_africa_east_202508 = pace_oci_rrs_mt_africa_east_202508;
+exports.pace_oci_rrs_mt_africa_east_202509 = pace_oci_rrs_mt_africa_east_202509;
+exports.pace_oci_rrs_mt_africa_east_202510 = pace_oci_rrs_mt_africa_east_202510;
+exports.pace_oci_rrs_mt_africa_east_202511 = pace_oci_rrs_mt_africa_east_202511;
+
+//
+
+var pace_oci_rrs_mt_africa_east = ee.ImageCollection.fromImages([
+                                                    pace_oci_rrs_mt_africa_east_202403, pace_oci_rrs_mt_africa_east_202404,pace_oci_rrs_mt_africa_east_202405,pace_oci_rrs_mt_africa_east_202406,pace_oci_rrs_mt_africa_east_202407,
+                                                    pace_oci_rrs_mt_africa_east_202408, pace_oci_rrs_mt_africa_east_202409,pace_oci_rrs_mt_africa_east_202410,pace_oci_rrs_mt_africa_east_202411,pace_oci_rrs_mt_africa_east_202412,
+                                                    pace_oci_rrs_mt_africa_east_202501,pace_oci_rrs_mt_africa_east_202502,pace_oci_rrs_mt_africa_east_202503,pace_oci_rrs_mt_africa_east_202504,pace_oci_rrs_mt_africa_east_202505,
+                                                    pace_oci_rrs_mt_africa_east_202506,pace_oci_rrs_mt_africa_east_202507,pace_oci_rrs_mt_africa_east_202508,pace_oci_rrs_mt_africa_east_202509,pace_oci_rrs_mt_africa_east_202510,
+                                                    pace_oci_rrs_mt_africa_east_202511])
+                                                    .map(function(img){return img.updateMask(img.gt(-32767))
+                                                    .multiply(0.000002).add(0.05).multiply(10000).toInt16()
+                                                    //.select(a.bands_oci_rrs_orig, a.bands_oci_rrs_mod)
+                                                    .set(t,img.get(t))});
+
+exports.pace_oci_rrs_mt_africa_east = pace_oci_rrs_mt_africa_east;
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// DOMAIN: WORLD | SPATIAL RES: 10 KM  | TEMPORAL RES: MONTHLY | all from version 3.1 reprocessing
+
+var pace_oci_rrs_mt_globe_202403 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/global_10km/globe_pace_oci_rrs_v3_1_202403").set(t,ee.Date.fromYMD(2024,3,31).millis()), 
+    pace_oci_rrs_mt_globe_202404 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/global_10km/globe_pace_oci_rrs_v3_1_202404").set(t,ee.Date.fromYMD(2024,4,30).millis()),
+    pace_oci_rrs_mt_globe_202405 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/global_10km/globe_pace_oci_rrs_v3_1_202405").set(t,ee.Date.fromYMD(2024,5,31).millis()),
+    pace_oci_rrs_mt_globe_202406 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/global_10km/globe_pace_oci_rrs_v3_1_202406").set(t,ee.Date.fromYMD(2024,6,30).millis()),
+    pace_oci_rrs_mt_globe_202407 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/global_10km/globe_pace_oci_rrs_v3_1_202407").set(t,ee.Date.fromYMD(2024,7,31).millis()),
+    pace_oci_rrs_mt_globe_202408 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/global_10km/globe_pace_oci_rrs_v3_1_202408").set(t,ee.Date.fromYMD(2024,8,31).millis()),
+    pace_oci_rrs_mt_globe_202409 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/global_10km/globe_pace_oci_rrs_v3_1_202409").set(t,ee.Date.fromYMD(2024,9,30).millis()),
+    pace_oci_rrs_mt_globe_202410 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/global_10km/globe_pace_oci_rrs_v3_1_202410").set(t,ee.Date.fromYMD(2024,10,31).millis()),
+    pace_oci_rrs_mt_globe_202411 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/global_10km/globe_pace_oci_rrs_v3_1_202411").set(t,ee.Date.fromYMD(2024,11,30).millis()),
+    pace_oci_rrs_mt_globe_202412 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/global_10km/globe_pace_oci_rrs_v3_1_202412").set(t,ee.Date.fromYMD(2024,12,31).millis()),
+    pace_oci_rrs_mt_globe_202501 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/global_10km/globe_pace_oci_rrs_v3_1_202501").set(t,ee.Date.fromYMD(2025,1,31).millis()),
+    pace_oci_rrs_mt_globe_202502 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/global_10km/globe_pace_oci_rrs_v3_1_202502").set(t,ee.Date.fromYMD(2025,2,28).millis()),
+    pace_oci_rrs_mt_globe_202503 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/global_10km/globe_pace_oci_rrs_v3_1_202503").set(t,ee.Date.fromYMD(2025,3,31).millis()),
+    pace_oci_rrs_mt_globe_202504 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/global_10km/globe_pace_oci_rrs_v3_1_202504").set(t,ee.Date.fromYMD(2025,4,30).millis()),
+    pace_oci_rrs_mt_globe_202505 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/global_10km/globe_pace_oci_rrs_v3_1_202505").set(t,ee.Date.fromYMD(2025,5,31).millis()),
+    pace_oci_rrs_mt_globe_202506 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/global_10km/globe_pace_oci_rrs_v3_1_202506").set(t,ee.Date.fromYMD(2025,6,30).millis()),
+    pace_oci_rrs_mt_globe_202507 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/global_10km/globe_pace_oci_rrs_v3_1_202507").set(t,ee.Date.fromYMD(2025,7,31).millis()),
+    pace_oci_rrs_mt_globe_202508 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/global_10km/globe_pace_oci_rrs_v3_1_202508").set(t,ee.Date.fromYMD(2025,8,31).millis()),
+    pace_oci_rrs_mt_globe_202509 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/global_10km/globe_pace_oci_rrs_v3_1_202509").set(t,ee.Date.fromYMD(2025,9,30).millis()),
+    pace_oci_rrs_mt_globe_202510 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/global_10km/globe_pace_oci_rrs_v3_1_202510").set(t,ee.Date.fromYMD(2025,10,31).millis()),
+    pace_oci_rrs_mt_globe_202511 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/global_10km/globe_pace_oci_rrs_v3_1_202511").set(t,ee.Date.fromYMD(2025,11,30).millis());
+
+exports.pace_oci_rrs_mt_globe_202403 = pace_oci_rrs_mt_globe_202403;
+exports.pace_oci_rrs_mt_globe_202404 = pace_oci_rrs_mt_globe_202404;
+exports.pace_oci_rrs_mt_globe_202405 = pace_oci_rrs_mt_globe_202405;
+exports.pace_oci_rrs_mt_globe_202406 = pace_oci_rrs_mt_globe_202406;
+exports.pace_oci_rrs_mt_globe_202407 = pace_oci_rrs_mt_globe_202407;
+exports.pace_oci_rrs_mt_globe_202408 = pace_oci_rrs_mt_globe_202408;
+exports.pace_oci_rrs_mt_globe_202409 = pace_oci_rrs_mt_globe_202409;
+exports.pace_oci_rrs_mt_globe_202410 = pace_oci_rrs_mt_globe_202410;
+exports.pace_oci_rrs_mt_globe_202411 = pace_oci_rrs_mt_globe_202411;
+exports.pace_oci_rrs_mt_globe_202412 = pace_oci_rrs_mt_globe_202412;
+
+exports.pace_oci_rrs_mt_globe_202501 = pace_oci_rrs_mt_globe_202501;
+exports.pace_oci_rrs_mt_globe_202502 = pace_oci_rrs_mt_globe_202502;
+exports.pace_oci_rrs_mt_globe_202503 = pace_oci_rrs_mt_globe_202503;
+exports.pace_oci_rrs_mt_globe_202504 = pace_oci_rrs_mt_globe_202504;
+exports.pace_oci_rrs_mt_globe_202505 = pace_oci_rrs_mt_globe_202505;
+exports.pace_oci_rrs_mt_globe_202506 = pace_oci_rrs_mt_globe_202506;
+exports.pace_oci_rrs_mt_globe_202507 = pace_oci_rrs_mt_globe_202507;
+exports.pace_oci_rrs_mt_globe_202508 = pace_oci_rrs_mt_globe_202508;
+exports.pace_oci_rrs_mt_globe_202509 = pace_oci_rrs_mt_globe_202509;
+exports.pace_oci_rrs_mt_globe_202510 = pace_oci_rrs_mt_globe_202510;
+exports.pace_oci_rrs_mt_globe_202511 = pace_oci_rrs_mt_globe_202511;
+
+//
+
+var pace_oci_rrs_mt_globe = ee.ImageCollection.fromImages([
+                              pace_oci_rrs_mt_globe_202403, pace_oci_rrs_mt_globe_202404,pace_oci_rrs_mt_globe_202405,pace_oci_rrs_mt_globe_202406,pace_oci_rrs_mt_globe_202407,
+                              pace_oci_rrs_mt_globe_202408, pace_oci_rrs_mt_globe_202409,pace_oci_rrs_mt_globe_202410,pace_oci_rrs_mt_globe_202411,pace_oci_rrs_mt_globe_202412,
+                              pace_oci_rrs_mt_globe_202501, pace_oci_rrs_mt_globe_202502,pace_oci_rrs_mt_globe_202503,pace_oci_rrs_mt_globe_202504,pace_oci_rrs_mt_globe_202505,
+                              pace_oci_rrs_mt_globe_202506, pace_oci_rrs_mt_globe_202507,pace_oci_rrs_mt_globe_202508,pace_oci_rrs_mt_globe_202509,pace_oci_rrs_mt_globe_202510,
+                              pace_oci_rrs_mt_globe_202511])
+                              .map(function(img){return img.updateMask(img.gt(-32767))
+                              .multiply(0.000002).add(0.05).multiply(10000).toInt16()
+                              .reproject('EPSG:4326', null, 10000)
+                              //.select(a.bands_oci_rrs_v3_1_orig, a.bands_oci_rrs_v3_1_mod)
+                              .set(t,img.get(t))});
+
+exports.pace_oci_rrs_mt_globe = pace_oci_rrs_mt_globe;
+
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

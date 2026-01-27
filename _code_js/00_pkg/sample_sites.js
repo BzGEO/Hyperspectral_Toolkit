@@ -3,7 +3,7 @@
 // Sample site locations for use with hyperspectral data
 // Questions? Contact Emil A. Cherrington, Ph.D. (eac0021@uah.edu)
 // This supports the following GEE code repository: https://bit.ly/gee_repo_pace_oci.
-// Last updated: 20.07.2025
+// Last updated: 20.01.2026
 
 // var x = require('users/bzgeo/hyperspectral_toolkit:00_pkg/sample_sites.js');
 
@@ -105,6 +105,16 @@ exports.bz_pt08 = bz_pt08;
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// REGIONS OF INTEREST
+
+var roi_bz = ee.Geometry.Rectangle(-87.64, 15.87, -89.4, 18.54); // Belize
+var roi_mes = ee.Geometry.Rectangle(-77, 7, -93, 22); // Mesoamerica
+
+exports.roi_bz = roi_bz;
+exports.roi_mes = roi_mes;
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 // MONITORING SITES IN ALABAMA, USA | original site coordinates w/ basic vegetation descriptions
 
 var us_al_hsv_pt01 = ee.Geometry.Point([-86.72415, 34.67289]); // Urban trees, Edgewater neighborhood (Huntsville / Madison)
@@ -185,12 +195,36 @@ exports.roi_ca_snp = roi_ca_snp;
 
 // OTHER SITES
 
+
 // FOREST GEO SITE: PAINT ROCK, AL
 var aoi_al_paint_rock = ee.FeatureCollection("users/servirbz/aoi/other/al_paint_rock_forest_plot");
 exports.aoi_al_paint_rock = aoi_al_paint_rock;
 
+
 // US NEON SITE: UNIVERSITY OF NOTRE DAME ENVIRONMENTAL RESEARCH CENTER (UNDERC)
-var underc = ee.FeatureCollection("users/servirbz/aoi/us/us_neon_site_underc_gcs");
-exports.underc = underc;
+var us_underc = ee.FeatureCollection("users/servirbz/aoi/us/us_neon_site_underc_gcs");
+exports.us_underc = us_underc;
+
+var us_underc_ln1 = ln1(us_underc);
+exports.us_underc_ln1 = us_underc_ln1;
+
+var us_underc_ln2 = ln2(us_underc);
+exports.underc_ln2 = us_underc_ln2;
+
+
+// EAST AFRICA DOMAIN
+var roi_afr_east = ee.Geometry.Polygon(
+        [[[27.963582500000012, 9.016980410736391],
+          [27.963582500000012, -16.128629822748533],
+          [40.00459812500001, -16.128629822748533],
+          [40.00459812500001, 9.016980410736391]]], null, false);
+          
+exports.roi_afr_east = roi_afr_east;
+
+var roi_kenya_tanzania = ee.Geometry.Rectangle([33.96198,-4.37332,36.73081,-1.68324]);
+exports.roi_kenya_tanzania = roi_kenya_tanzania;
+
+var roi_ethiopia = ee.Geometry.Rectangle([37.09634, 5.56403, 39.55728, 8.59458]);
+exports.roi_ethiopia = roi_ethiopia;
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
