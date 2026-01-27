@@ -3,7 +3,11 @@
 // Loads reference PACE OCI data (surface reflectance data, land vegetation indices)
 // Questions? Contact Emil A. Cherrington, Ph.D. (eac0021@uah.edu)
 // This is a part of the following GEE code repository: https://bit.ly/gee_repo_hyperspectral.
+<<<<<<< HEAD
 // Last updated: 16.01.2026
+=======
+// Last updated: 10.11.2025
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
 
 // var x = require('users/bzgeo/hyperspectral_toolkit:00_pkg/ref_data_pace_oci.js');
 
@@ -66,9 +70,13 @@ var pace_oci_mt_conus_02km_202403 = ee.Image("projects/bz-sdg/compil_imagery/hyp
     pace_oci_mt_conus_02km_202506 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/conus_02km/conus_pace_oci_sr_202506_02km").set(t,ee.Date.fromYMD(2025,6,30).millis()),
     pace_oci_mt_conus_02km_202507 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/conus_02km/conus_pace_oci_sr_202507_02km").set(t,ee.Date.fromYMD(2025,7,31).millis()),
     pace_oci_mt_conus_02km_202508 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/conus_02km/conus_pace_oci_sr_202508_02km").set(t,ee.Date.fromYMD(2025,8,31).millis()),
+<<<<<<< HEAD
     pace_oci_mt_conus_02km_202509 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/conus_02km/conus_pace_oci_sr_202509_02km").set(t,ee.Date.fromYMD(2025,9,30).millis()),
     pace_oci_mt_conus_02km_202510 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/conus_02km/conus_pace_oci_sr_202510_02km").set(t,ee.Date.fromYMD(2025,10,31).millis()),
     pace_oci_mt_conus_02km_202511 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/conus_02km/conus_pace_oci_sr_202511_02km").set(t,ee.Date.fromYMD(2025,11,30).millis());
+=======
+    pace_oci_mt_conus_02km_202509 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/conus_02km/conus_pace_oci_sr_202509_02km").set(t,ee.Date.fromYMD(2025,9,30).millis());
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
 
 
 exports.pace_oci_mt_conus_02km_202403 = pace_oci_mt_conus_02km_202403;
@@ -91,16 +99,23 @@ exports.pace_oci_mt_conus_02km_202506 = pace_oci_mt_conus_02km_202506;
 exports.pace_oci_mt_conus_02km_202507 = pace_oci_mt_conus_02km_202507;
 exports.pace_oci_mt_conus_02km_202508 = pace_oci_mt_conus_02km_202508;
 exports.pace_oci_mt_conus_02km_202509 = pace_oci_mt_conus_02km_202509;
+<<<<<<< HEAD
 exports.pace_oci_mt_conus_02km_202510 = pace_oci_mt_conus_02km_202510;
 exports.pace_oci_mt_conus_02km_202511 = pace_oci_mt_conus_02km_202511;
+=======
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
 
 //
 
 var pace_oci_mt_conus_02km = ee.ImageCollection.fromImages([pace_oci_mt_conus_02km_202403,pace_oci_mt_conus_02km_202404,pace_oci_mt_conus_02km_202405,pace_oci_mt_conus_02km_202406,pace_oci_mt_conus_02km_202407,
                                                     pace_oci_mt_conus_02km_202408,pace_oci_mt_conus_02km_202409,pace_oci_mt_conus_02km_202410,pace_oci_mt_conus_02km_202411,pace_oci_mt_conus_02km_202412,
                                                     pace_oci_mt_conus_02km_202501,pace_oci_mt_conus_02km_202502,pace_oci_mt_conus_02km_202503,pace_oci_mt_conus_02km_202504,pace_oci_mt_conus_02km_202505,
+<<<<<<< HEAD
                                                     pace_oci_mt_conus_02km_202506,pace_oci_mt_conus_02km_202507,pace_oci_mt_conus_02km_202508,pace_oci_mt_conus_02km_202509,pace_oci_mt_conus_02km_202510,
                                                     pace_oci_mt_conus_02km_202511])
+=======
+                                                    pace_oci_mt_conus_02km_202506,pace_oci_mt_conus_02km_202507,pace_oci_mt_conus_02km_202508,pace_oci_mt_conus_02km_202509])
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
                                                     .map(function(img){return img.updateMask(img.gte(0)).set(t,img.get(t))});
 
 exports.pace_oci_mt_conus_02km = pace_oci_mt_conus_02km;
@@ -191,8 +206,11 @@ var pace_oci_mes_202506_02km = ee.Image("projects/bz-sdg/compil_imagery/hyperspe
 var pace_oci_mes_202507_02km = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/mesoamerica_02km/mes_pace_oci_sr_202507_02km");
 var pace_oci_mes_202508_02km = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/mesoamerica_02km/mes_pace_oci_sr_202508_02km");
 var pace_oci_mes_202509_02km = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/mesoamerica_02km/mes_pace_oci_sr_202509_02km");
+<<<<<<< HEAD
 var pace_oci_mes_202510_02km = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/mesoamerica_02km/mes_pace_oci_sr_202510_02km");
 var pace_oci_mes_202511_02km = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/mesoamerica_02km/mes_pace_oci_sr_202511_02km");
+=======
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
 
 exports.pace_oci_mes_202403_02km = pace_oci_mes_202403_02km.updateMask(pace_oci_mes_202403_02km.gte(0)).toFloat();
 exports.pace_oci_mes_202404_02km = pace_oci_mes_202404_02km.updateMask(pace_oci_mes_202404_02km.gte(0)).toFloat();
@@ -214,8 +232,11 @@ exports.pace_oci_mes_202506_02km = pace_oci_mes_202506_02km.updateMask(pace_oci_
 exports.pace_oci_mes_202507_02km = pace_oci_mes_202507_02km.updateMask(pace_oci_mes_202507_02km.gte(0)).toFloat();
 exports.pace_oci_mes_202508_02km = pace_oci_mes_202508_02km.updateMask(pace_oci_mes_202508_02km.gte(0)).toFloat();
 exports.pace_oci_mes_202509_02km = pace_oci_mes_202509_02km.updateMask(pace_oci_mes_202509_02km.gte(0)).toFloat();
+<<<<<<< HEAD
 exports.pace_oci_mes_202510_02km = pace_oci_mes_202510_02km.updateMask(pace_oci_mes_202510_02km.gte(0)).toFloat();
 exports.pace_oci_mes_202511_02km = pace_oci_mes_202511_02km.updateMask(pace_oci_mes_202511_02km.gte(0)).toFloat();
+=======
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
 
 //
 
@@ -223,8 +244,12 @@ var pace_oci_mt_mes = ee.ImageCollection.fromImages([
   pace_oci_mes_202403_02km,pace_oci_mes_202404_02km,pace_oci_mes_202405_02km,pace_oci_mes_202406_02km,pace_oci_mes_202407_02km,
   pace_oci_mes_202408_02km,pace_oci_mes_202409_02km,pace_oci_mes_202410_02km,pace_oci_mes_202411_02km,pace_oci_mes_202412_02km,
   pace_oci_mes_202501_02km,pace_oci_mes_202502_02km,pace_oci_mes_202503_02km,pace_oci_mes_202504_02km,pace_oci_mes_202505_02km,
+<<<<<<< HEAD
   pace_oci_mes_202506_02km,pace_oci_mes_202507_02km,pace_oci_mes_202508_02km,pace_oci_mes_202509_02km,pace_oci_mes_202510_02km,
   pace_oci_mes_202511_02km
+=======
+  pace_oci_mes_202506_02km,pace_oci_mes_202507_02km,pace_oci_mes_202508_02km,pace_oci_mes_202509_02km
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
   ])
   .map(function(img){return img.updateMask(img.gte(0)).multiply(10000).toInt16().reproject('EPSG:4326', null, 2000).set(t,img.get(t))});
 exports.pace_oci_mt_mes = pace_oci_mt_mes;
@@ -235,14 +260,19 @@ var pace_oci_mt_mes_img = ee.Image.cat([
   pace_oci_mes_202403_02km,pace_oci_mes_202404_02km,pace_oci_mes_202405_02km,pace_oci_mes_202406_02km,pace_oci_mes_202407_02km,
   pace_oci_mes_202408_02km,pace_oci_mes_202409_02km,pace_oci_mes_202410_02km,pace_oci_mes_202411_02km,pace_oci_mes_202412_02km,
   pace_oci_mes_202501_02km,pace_oci_mes_202502_02km,pace_oci_mes_202503_02km,pace_oci_mes_202504_02km,pace_oci_mes_202505_02km,
+<<<<<<< HEAD
   pace_oci_mes_202506_02km,pace_oci_mes_202507_02km,pace_oci_mes_202508_02km,pace_oci_mes_202509_02km,pace_oci_mes_202510_02km,
   pace_oci_mes_202511_02km
+=======
+  pace_oci_mes_202506_02km,pace_oci_mes_202507_02km,pace_oci_mes_202508_02km,pace_oci_mes_202509_02km
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
   ])
   .multiply(10000).toInt16().reproject('EPSG:4326', null, 2000);
 exports.pace_oci_mt_mes_img = pace_oci_mt_mes_img;
 
 //
 
+<<<<<<< HEAD
 var pace_oci_mt_mes_img2 = ee.Image.cat([
   pace_oci_mes_202403_02km,pace_oci_mes_202404_02km,pace_oci_mes_202405_02km,pace_oci_mes_202406_02km,pace_oci_mes_202407_02km,
   pace_oci_mes_202408_02km,pace_oci_mes_202409_02km,pace_oci_mes_202410_02km,pace_oci_mes_202411_02km,pace_oci_mes_202412_02km,
@@ -254,6 +284,8 @@ exports.pace_oci_mt_mes_img2 = pace_oci_mt_mes_img2;
 
 //
 
+=======
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
 function pace_mes(no){
 var imageList = pace_oci_mt_mes.toList(pace_oci_mt_mes.size());
 return ee.Image(imageList.get(no))}
@@ -329,9 +361,13 @@ var pace_oci_mt_global_202403 = ee.Image("projects/bz-sdg/compil_imagery/hypersp
     pace_oci_mt_global_202506 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/global_10km/globe_pace_oci_sr_v31_202506").set(t,ee.Date.fromYMD(2025,6,30).millis()),
     pace_oci_mt_global_202507 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/global_10km/globe_pace_oci_sr_v31_202507").set(t,ee.Date.fromYMD(2025,7,31).millis()),
     pace_oci_mt_global_202508 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/global_10km/globe_pace_oci_sr_v31_202508").set(t,ee.Date.fromYMD(2025,8,31).millis()),
+<<<<<<< HEAD
     pace_oci_mt_global_202509 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/global_10km/globe_pace_oci_sr_v31_202509").set(t,ee.Date.fromYMD(2025,9,30).millis()),
     pace_oci_mt_global_202510 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/global_10km/globe_pace_oci_sr_v31_202510").set(t,ee.Date.fromYMD(2025,10,31).millis()),
     pace_oci_mt_global_202511 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/global_10km/globe_pace_oci_sr_v31_202511").set(t,ee.Date.fromYMD(2025,11,30).millis());
+=======
+    pace_oci_mt_global_202509 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_sr/global_10km/globe_pace_oci_sr_v31_202509").set(t,ee.Date.fromYMD(2025,9,30).millis());
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
 
 exports.pace_oci_mt_global_202403 = pace_oci_mt_global_202403;
 exports.pace_oci_mt_global_202404 = pace_oci_mt_global_202404;
@@ -353,15 +389,22 @@ exports.pace_oci_mt_global_202506 = pace_oci_mt_global_202506;
 exports.pace_oci_mt_global_202507 = pace_oci_mt_global_202507;
 exports.pace_oci_mt_global_202508 = pace_oci_mt_global_202508;
 exports.pace_oci_mt_global_202509 = pace_oci_mt_global_202509;
+<<<<<<< HEAD
 exports.pace_oci_mt_global_202510 = pace_oci_mt_global_202510;
 exports.pace_oci_mt_global_202511 = pace_oci_mt_global_202511;
+=======
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
 
 //
 var pace_oci_mt_global = ee.ImageCollection.fromImages([pace_oci_mt_global_202403,pace_oci_mt_global_202404,pace_oci_mt_global_202405,pace_oci_mt_global_202406,pace_oci_mt_global_202407,
                                                     pace_oci_mt_global_202408,pace_oci_mt_global_202409,pace_oci_mt_global_202410,pace_oci_mt_global_202411,pace_oci_mt_global_202412,
                                                     pace_oci_mt_global_202501,pace_oci_mt_global_202502,pace_oci_mt_global_202503,pace_oci_mt_global_202504,pace_oci_mt_global_202505,
+<<<<<<< HEAD
                                                     pace_oci_mt_global_202506,pace_oci_mt_global_202507,pace_oci_mt_global_202508,pace_oci_mt_global_202509,pace_oci_mt_global_202510,
                                                     pace_oci_mt_global_202511])
+=======
+                                                    pace_oci_mt_global_202506,pace_oci_mt_global_202507,pace_oci_mt_global_202508,pace_oci_mt_global_202509])
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
                                                     .map(function(img){return img.updateMask(img.gte(0)).reproject('EPSG:4326', null, 10000).set(t,img.get(t))});
 exports.pace_oci_mt_global = pace_oci_mt_global;
 
@@ -721,8 +764,11 @@ var pace_oci_mt_vi_202506 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectr
 var pace_oci_mt_vi_202507 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202507_L3m_MO_LANDVI_V3_1').set(t,ee.Date.fromYMD(2025,7,31).millis());
 var pace_oci_mt_vi_202508 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202508_L3m_MO_LANDVI_V3_1').set(t,ee.Date.fromYMD(2025,8,31).millis());
 var pace_oci_mt_vi_202509 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202509_L3m_MO_LANDVI_V3_1').set(t,ee.Date.fromYMD(2025,9,30).millis());
+<<<<<<< HEAD
 var pace_oci_mt_vi_202510 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202510_L3m_MO_LANDVI_V3_1').set(t,ee.Date.fromYMD(2025,10,31).millis());
 var pace_oci_mt_vi_202511 = ee.Image('projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_vi/monthly/PACE_OCI_202511_L3m_MO_LANDVI_V3_1').set(t,ee.Date.fromYMD(2025,11,30).millis());
+=======
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
 
 exports.pace_oci_mt_vi_202403 = pace_oci_mt_vi_202403;
 exports.pace_oci_mt_vi_202404 = pace_oci_mt_vi_202404;
@@ -743,16 +789,23 @@ exports.pace_oci_mt_vi_202506 = pace_oci_mt_vi_202506;
 exports.pace_oci_mt_vi_202507 = pace_oci_mt_vi_202507;
 exports.pace_oci_mt_vi_202508 = pace_oci_mt_vi_202508;
 exports.pace_oci_mt_vi_202509 = pace_oci_mt_vi_202509;
+<<<<<<< HEAD
 exports.pace_oci_mt_vi_202510 = pace_oci_mt_vi_202510;
 exports.pace_oci_mt_vi_202511 = pace_oci_mt_vi_202511;
+=======
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
 
 //
 var pace_oci_mt_global_vi = ee.ImageCollection.fromImages([
 pace_oci_mt_vi_202403,pace_oci_mt_vi_202404,pace_oci_mt_vi_202405,pace_oci_mt_vi_202406,pace_oci_mt_vi_202407,
 pace_oci_mt_vi_202408,pace_oci_mt_vi_202409,pace_oci_mt_vi_202410,pace_oci_mt_vi_202411,pace_oci_mt_vi_202412,
 pace_oci_mt_vi_202501,pace_oci_mt_vi_202502,pace_oci_mt_vi_202503,pace_oci_mt_vi_202504,pace_oci_mt_vi_202505,
+<<<<<<< HEAD
 pace_oci_mt_vi_202506,pace_oci_mt_vi_202507,pace_oci_mt_vi_202508,pace_oci_mt_vi_202509,pace_oci_mt_vi_202510,
 pace_oci_mt_vi_202511])
+=======
+pace_oci_mt_vi_202506,pace_oci_mt_vi_202507,pace_oci_mt_vi_202508,pace_oci_mt_vi_202509])
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
 .map(function(img){return img.updateMask(img.gte(-1)).multiply(10000).rename(["ndvi","evi","ndwi","ndii","cci","ndsi","pri","cire","car","mari"]).set(t,img.get(t));
 });
 
@@ -764,8 +817,12 @@ exports.pace_oci_mt_global_vi = pace_oci_mt_global_vi;
 // CHLOROPHYLL A
 // DOMAIN: GLOBAL | SPATIAL RES: 4 KM  | TEMPORAL RES: 8 DAY
 
+<<<<<<< HEAD
 //var chl_a = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_chlor_a/8day_4km/pace_oci_20240305_20251023_l3m_8d_chlor_a_v3_x100");
 var chl_a = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_chlor_a/8day_4km/pace_oci_20240305_20251124_l3m_8d_chlor_a_v31_x100");
+=======
+var chl_a = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_chlor_a/8day_4km/pace_oci_20240305_20251023_l3m_8d_chlor_a_v3_x100");
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
 
 /////
 var coll_chl = function(img) {
@@ -845,12 +902,20 @@ var chl72 = ee.Image.cat(img.select([71])).rename('chlor_a').set(t,ee.Date.fromY
 var chl73 = ee.Image.cat(img.select([72])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,10,7).millis());
 var chl74 = ee.Image.cat(img.select([73])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,10,15).millis());
 var chl75 = ee.Image.cat(img.select([74])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,10,23).millis());
+<<<<<<< HEAD
+=======
+
+/*
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
 var chl76 = ee.Image.cat(img.select([75])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,10,31).millis());
 var chl77 = ee.Image.cat(img.select([76])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,11,8).millis());
 var chl78 = ee.Image.cat(img.select([77])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,11,16).millis());
 var chl79 = ee.Image.cat(img.select([78])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,11,24).millis());
+<<<<<<< HEAD
 
 /*
+=======
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
 var chl80 = ee.Image.cat(img.select([79])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,12,2).millis());
 var chl81 = ee.Image.cat(img.select([80])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,12,10).millis());
 var chl82 = ee.Image.cat(img.select([81])).rename('chlor_a').set(t,ee.Date.fromYMD(2025,12,18).millis());
@@ -904,9 +969,13 @@ var pace_oci_rrs_mt_conus_202403 = ee.Image("projects/bz-sdg/compil_imagery/hype
     pace_oci_rrs_mt_conus_202506 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/conus_04km/conus_pace_oci_rrs_202506_4km").set(t,ee.Date.fromYMD(2025,6,30).millis()),
     pace_oci_rrs_mt_conus_202507 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/conus_04km/conus_pace_oci_rrs_202507_4km").set(t,ee.Date.fromYMD(2025,7,31).millis()),
     pace_oci_rrs_mt_conus_202508 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/conus_04km/conus_pace_oci_rrs_202508_4km").set(t,ee.Date.fromYMD(2025,8,31).millis()),
+<<<<<<< HEAD
     pace_oci_rrs_mt_conus_202509 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/conus_04km/conus_pace_oci_rrs_202509_4km").set(t,ee.Date.fromYMD(2025,9,30).millis()),
     pace_oci_rrs_mt_conus_202510 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/conus_04km/conus_pace_oci_rrs_202510_4km").set(t,ee.Date.fromYMD(2025,10,31).millis()),
     pace_oci_rrs_mt_conus_202511 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/conus_04km/conus_pace_oci_rrs_202511_4km").set(t,ee.Date.fromYMD(2025,11,30).millis());
+=======
+    pace_oci_rrs_mt_conus_202509 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/conus_04km/conus_pace_oci_rrs_202509_4km").set(t,ee.Date.fromYMD(2025,9,30).millis());
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
 
 exports.pace_oci_rrs_mt_conus_202403 = pace_oci_rrs_mt_conus_202403;
 exports.pace_oci_rrs_mt_conus_202404 = pace_oci_rrs_mt_conus_202404;
@@ -928,8 +997,11 @@ exports.pace_oci_rrs_mt_conus_202506 = pace_oci_rrs_mt_conus_202506;
 exports.pace_oci_rrs_mt_conus_202507 = pace_oci_rrs_mt_conus_202507;
 exports.pace_oci_rrs_mt_conus_202508 = pace_oci_rrs_mt_conus_202508;
 exports.pace_oci_rrs_mt_conus_202509 = pace_oci_rrs_mt_conus_202509;
+<<<<<<< HEAD
 exports.pace_oci_rrs_mt_conus_202510 = pace_oci_rrs_mt_conus_202510;
 exports.pace_oci_rrs_mt_conus_202511 = pace_oci_rrs_mt_conus_202511;
+=======
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
 
 //
 
@@ -937,8 +1009,12 @@ var pace_oci_rrs_mt_conus = ee.ImageCollection.fromImages([
                                                     pace_oci_rrs_mt_conus_202403, pace_oci_rrs_mt_conus_202404,pace_oci_rrs_mt_conus_202405,pace_oci_rrs_mt_conus_202406,pace_oci_rrs_mt_conus_202407,
                                                     pace_oci_rrs_mt_conus_202408, pace_oci_rrs_mt_conus_202409,pace_oci_rrs_mt_conus_202410,pace_oci_rrs_mt_conus_202411,pace_oci_rrs_mt_conus_202412,
                                                     pace_oci_rrs_mt_conus_202501,pace_oci_rrs_mt_conus_202502,pace_oci_rrs_mt_conus_202503,pace_oci_rrs_mt_conus_202504,pace_oci_rrs_mt_conus_202505,
+<<<<<<< HEAD
                                                     pace_oci_rrs_mt_conus_202506,pace_oci_rrs_mt_conus_202507,pace_oci_rrs_mt_conus_202508,pace_oci_rrs_mt_conus_202509,pace_oci_rrs_mt_conus_202510,
                                                     pace_oci_rrs_mt_conus_202511])
+=======
+                                                    pace_oci_rrs_mt_conus_202506,pace_oci_rrs_mt_conus_202507,pace_oci_rrs_mt_conus_202508,pace_oci_rrs_mt_conus_202509])
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
                                                     .map(function(img){return img.updateMask(img.gt(-32767))
                                                     .multiply(0.000002).add(0.05).multiply(10000).toInt16()
                                                     //.select(a.bands_oci_rrs_orig, a.bands_oci_rrs_mod)
@@ -974,9 +1050,13 @@ var pace_oci_rrs_mt_africa_east_202403 = ee.Image("projects/bz-sdg/compil_imager
     pace_oci_rrs_mt_africa_east_202506 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/africa_04km/africa_east_pace_oci_rrs_202506_4km").set(t,ee.Date.fromYMD(2025,6,30).millis()),
     pace_oci_rrs_mt_africa_east_202507 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/africa_04km/africa_east_pace_oci_rrs_202507_4km").set(t,ee.Date.fromYMD(2025,7,31).millis()),
     pace_oci_rrs_mt_africa_east_202508 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/africa_04km/africa_east_pace_oci_rrs_202508_4km").set(t,ee.Date.fromYMD(2025,8,31).millis()),
+<<<<<<< HEAD
     pace_oci_rrs_mt_africa_east_202509 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/africa_04km/africa_east_pace_oci_rrs_202509_4km").set(t,ee.Date.fromYMD(2025,9,30).millis()),
     pace_oci_rrs_mt_africa_east_202510 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/africa_04km/africa_east_pace_oci_rrs_202510_4km").set(t,ee.Date.fromYMD(2025,10,31).millis()),
     pace_oci_rrs_mt_africa_east_202511 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/africa_04km/africa_east_pace_oci_rrs_202511_4km").set(t,ee.Date.fromYMD(2025,11,30).millis());
+=======
+    pace_oci_rrs_mt_africa_east_202509 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/africa_04km/africa_east_pace_oci_rrs_202509_4km").set(t,ee.Date.fromYMD(2025,9,30).millis());
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
 
 exports.pace_oci_rrs_mt_africa_east_202403 = pace_oci_rrs_mt_africa_east_202403;
 exports.pace_oci_rrs_mt_africa_east_202404 = pace_oci_rrs_mt_africa_east_202404;
@@ -998,8 +1078,11 @@ exports.pace_oci_rrs_mt_africa_east_202506 = pace_oci_rrs_mt_africa_east_202506;
 exports.pace_oci_rrs_mt_africa_east_202507 = pace_oci_rrs_mt_africa_east_202507;
 exports.pace_oci_rrs_mt_africa_east_202508 = pace_oci_rrs_mt_africa_east_202508;
 exports.pace_oci_rrs_mt_africa_east_202509 = pace_oci_rrs_mt_africa_east_202509;
+<<<<<<< HEAD
 exports.pace_oci_rrs_mt_africa_east_202510 = pace_oci_rrs_mt_africa_east_202510;
 exports.pace_oci_rrs_mt_africa_east_202511 = pace_oci_rrs_mt_africa_east_202511;
+=======
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
 
 //
 
@@ -1007,8 +1090,12 @@ var pace_oci_rrs_mt_africa_east = ee.ImageCollection.fromImages([
                                                     pace_oci_rrs_mt_africa_east_202403, pace_oci_rrs_mt_africa_east_202404,pace_oci_rrs_mt_africa_east_202405,pace_oci_rrs_mt_africa_east_202406,pace_oci_rrs_mt_africa_east_202407,
                                                     pace_oci_rrs_mt_africa_east_202408, pace_oci_rrs_mt_africa_east_202409,pace_oci_rrs_mt_africa_east_202410,pace_oci_rrs_mt_africa_east_202411,pace_oci_rrs_mt_africa_east_202412,
                                                     pace_oci_rrs_mt_africa_east_202501,pace_oci_rrs_mt_africa_east_202502,pace_oci_rrs_mt_africa_east_202503,pace_oci_rrs_mt_africa_east_202504,pace_oci_rrs_mt_africa_east_202505,
+<<<<<<< HEAD
                                                     pace_oci_rrs_mt_africa_east_202506,pace_oci_rrs_mt_africa_east_202507,pace_oci_rrs_mt_africa_east_202508,pace_oci_rrs_mt_africa_east_202509,pace_oci_rrs_mt_africa_east_202510,
                                                     pace_oci_rrs_mt_africa_east_202511])
+=======
+                                                    pace_oci_rrs_mt_africa_east_202506,pace_oci_rrs_mt_africa_east_202507,pace_oci_rrs_mt_africa_east_202508,pace_oci_rrs_mt_africa_east_202509])
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
                                                     .map(function(img){return img.updateMask(img.gt(-32767))
                                                     .multiply(0.000002).add(0.05).multiply(10000).toInt16()
                                                     //.select(a.bands_oci_rrs_orig, a.bands_oci_rrs_mod)
@@ -1038,9 +1125,13 @@ var pace_oci_rrs_mt_globe_202403 = ee.Image("projects/bz-sdg/compil_imagery/hype
     pace_oci_rrs_mt_globe_202506 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/global_10km/globe_pace_oci_rrs_v3_1_202506").set(t,ee.Date.fromYMD(2025,6,30).millis()),
     pace_oci_rrs_mt_globe_202507 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/global_10km/globe_pace_oci_rrs_v3_1_202507").set(t,ee.Date.fromYMD(2025,7,31).millis()),
     pace_oci_rrs_mt_globe_202508 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/global_10km/globe_pace_oci_rrs_v3_1_202508").set(t,ee.Date.fromYMD(2025,8,31).millis()),
+<<<<<<< HEAD
     pace_oci_rrs_mt_globe_202509 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/global_10km/globe_pace_oci_rrs_v3_1_202509").set(t,ee.Date.fromYMD(2025,9,30).millis()),
     pace_oci_rrs_mt_globe_202510 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/global_10km/globe_pace_oci_rrs_v3_1_202510").set(t,ee.Date.fromYMD(2025,10,31).millis()),
     pace_oci_rrs_mt_globe_202511 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/global_10km/globe_pace_oci_rrs_v3_1_202511").set(t,ee.Date.fromYMD(2025,11,30).millis());
+=======
+    pace_oci_rrs_mt_globe_202509 = ee.Image("projects/bz-sdg/compil_imagery/hyperspectral/pace_oci_rrs/global_10km/globe_pace_oci_rrs_v3_1_202509").set(t,ee.Date.fromYMD(2025,9,30).millis());
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
 
 exports.pace_oci_rrs_mt_globe_202403 = pace_oci_rrs_mt_globe_202403;
 exports.pace_oci_rrs_mt_globe_202404 = pace_oci_rrs_mt_globe_202404;
@@ -1062,8 +1153,11 @@ exports.pace_oci_rrs_mt_globe_202506 = pace_oci_rrs_mt_globe_202506;
 exports.pace_oci_rrs_mt_globe_202507 = pace_oci_rrs_mt_globe_202507;
 exports.pace_oci_rrs_mt_globe_202508 = pace_oci_rrs_mt_globe_202508;
 exports.pace_oci_rrs_mt_globe_202509 = pace_oci_rrs_mt_globe_202509;
+<<<<<<< HEAD
 exports.pace_oci_rrs_mt_globe_202510 = pace_oci_rrs_mt_globe_202510;
 exports.pace_oci_rrs_mt_globe_202511 = pace_oci_rrs_mt_globe_202511;
+=======
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
 
 //
 
@@ -1071,8 +1165,12 @@ var pace_oci_rrs_mt_globe = ee.ImageCollection.fromImages([
                               pace_oci_rrs_mt_globe_202403, pace_oci_rrs_mt_globe_202404,pace_oci_rrs_mt_globe_202405,pace_oci_rrs_mt_globe_202406,pace_oci_rrs_mt_globe_202407,
                               pace_oci_rrs_mt_globe_202408, pace_oci_rrs_mt_globe_202409,pace_oci_rrs_mt_globe_202410,pace_oci_rrs_mt_globe_202411,pace_oci_rrs_mt_globe_202412,
                               pace_oci_rrs_mt_globe_202501, pace_oci_rrs_mt_globe_202502,pace_oci_rrs_mt_globe_202503,pace_oci_rrs_mt_globe_202504,pace_oci_rrs_mt_globe_202505,
+<<<<<<< HEAD
                               pace_oci_rrs_mt_globe_202506, pace_oci_rrs_mt_globe_202507,pace_oci_rrs_mt_globe_202508,pace_oci_rrs_mt_globe_202509,pace_oci_rrs_mt_globe_202510,
                               pace_oci_rrs_mt_globe_202511])
+=======
+                              pace_oci_rrs_mt_globe_202506, pace_oci_rrs_mt_globe_202507,pace_oci_rrs_mt_globe_202508,pace_oci_rrs_mt_globe_202509])
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
                               .map(function(img){return img.updateMask(img.gt(-32767))
                               .multiply(0.000002).add(0.05).multiply(10000).toInt16()
                               .reproject('EPSG:4326', null, 10000)

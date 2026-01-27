@@ -13,7 +13,11 @@ var b = require('users/bzgeo/hyperspectral_toolkit:00_pkg/emit_hyperion_pace.js'
 var pace_oci_rrs_mt_conus = a.pace_oci_rrs_mt_conus.select(b.bands_oci_rrs_orig,b.bands_oci_rrs_mod);
 //print(pace_oci_rrs_mt_conus);
 
+<<<<<<< HEAD
 var pace_01 = pace_oci_rrs_mt_conus.select([0]); // This *SHOULD* (but doesn't) select the first band from each image in the image collection
+=======
+var pace_01 = pace_oci_rrs_mt_conus.select([0]); // This will select the first band from each image in the image collection
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
 print(pace_01);
 
 // {min: [-58, -57, -38], max: [53, 89, 149], bands: ['ρ0652', 'ρ0555', 'ρ0475']}

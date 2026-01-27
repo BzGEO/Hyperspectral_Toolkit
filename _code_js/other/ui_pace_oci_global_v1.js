@@ -3,7 +3,11 @@
 // PACE OCI hyperspectral data viewer
 // Credits: Most of this code is borrowed, with permission, from Dr. Samapriya Roy's TANAGER Hyperspectral Data Viewer (see: https://sat-io.earthengine.app/view/tanager).
 // Code updated by Emil Cherrington, Ph.D. (eac0021@uah.edu)
+<<<<<<< HEAD
 // Last updated: 12.01.2026
+=======
+// Last updated: 25.07.2025
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
 //
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -177,7 +181,11 @@ var imageSelect = ui.Select({
         clearAllPoints()},
     style: {margin: '5px 0px', width: '280px'}});
 
+<<<<<<< HEAD
 imageSelect.setValue(imageList[20]);
+=======
+imageSelect.setValue(imageList[12]);
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
 
 // Helper function to pad numbers with leading zeros
 function padNumber(num, length) {

@@ -3,7 +3,11 @@
 // Sample site locations for use with hyperspectral data
 // Questions? Contact Emil A. Cherrington, Ph.D. (eac0021@uah.edu)
 // This supports the following GEE code repository: https://bit.ly/gee_repo_pace_oci.
+<<<<<<< HEAD
 // Last updated: 20.01.2026
+=======
+// Last updated: 10.08.2025
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
 
 // var x = require('users/bzgeo/hyperspectral_toolkit:00_pkg/sample_sites.js');
 
@@ -210,6 +214,7 @@ exports.us_underc_ln1 = us_underc_ln1;
 
 var us_underc_ln2 = ln2(us_underc);
 exports.underc_ln2 = us_underc_ln2;
+<<<<<<< HEAD
 
 
 // EAST AFRICA DOMAIN
@@ -226,5 +231,7 @@ exports.roi_kenya_tanzania = roi_kenya_tanzania;
 
 var roi_ethiopia = ee.Geometry.Rectangle([37.09634, 5.56403, 39.55728, 8.59458]);
 exports.roi_ethiopia = roi_ethiopia;
+=======
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

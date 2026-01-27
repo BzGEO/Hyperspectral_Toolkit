@@ -26,4 +26,8 @@ var roiEastAfrica2 = ee.Geometry.Rectangle([37.09634, 5.56403, 39.55728, 8.59458
 Map.addLayer(roiEastAfrica2, {}, 'Ethiopia');
 
 Map.centerObject(roi, 5);
+<<<<<<< HEAD
 Map.addLayer(ln(roi), {palette: ['red']},'AOI_East_Africa', 1);
+=======
+Map.addLayer(ln(roi), {palette: ['red']},'AOI_Alabama', 1);
+>>>>>>> 1b2f16fcf0bd46852c2a02c1f162f925bf1845c4
