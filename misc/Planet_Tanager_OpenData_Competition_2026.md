@@ -14,7 +14,7 @@
 * https://www.planet.com/data/stac/browser/tanager-core-imagery/catalog.json?.language=en
 
 Themes (9):
-* [Agriculture](https://www.planet.com/data/stac/browser/tanager-core-imagery/agriculture/collection.json) ➡️ 43 scenes, incl. El Salvador
+* [Agriculture](https://www.planet.com/data/stac/browser/tanager-core-imagery/agriculture/collection.json) ➡️ 43 scenes, incl. 2 El Salvador scenes
 <img width="930" height="360" alt="image" src="https://github.com/user-attachments/assets/b25b98e8-cb4c-4143-992d-7a412724cdac" />
 
 * [Coastal & water bodies](https://www.planet.com/data/stac/browser/tanager-core-imagery/coastal-water-bodies/collection.json) ➡️ 43 scenes, incl. in [Belize](https://www.planet.com/data/stac/browser/tanager-core-imagery/coastal-water-bodies/20250824_171857_84_4001/20250824_171857_84_4001.json?.language=en), [El Salvador](https://www.planet.com/data/stac/browser/tanager-core-imagery/coastal-water-bodies/20250223_165546_32_4001/20250223_165546_32_4001.json?.language=en)
