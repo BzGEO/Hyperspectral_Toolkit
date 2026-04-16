@@ -10,6 +10,8 @@
 ## 1. Application and Background Information
 * https://learn.planet.com/2026-Tanager-Open-Data-Competition.html
 
+<img width="727" height="273" alt="image" src="https://github.com/user-attachments/assets/5111f76f-183d-4bb0-b733-bcff0070616c" />
+
 ## 2. Competition data resources (Tanager spatio-temporal asset catalog)
 * https://www.planet.com/data/stac/browser/tanager-core-imagery/catalog.json?.language=en
 
