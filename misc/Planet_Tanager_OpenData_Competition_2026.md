@@ -56,7 +56,7 @@ Themes (9):
 * https://www.surveymonkey.com/r/tanager-competition
 
 ## Other
-* List of Tanager's 426 spectral bands (376.4 - 2,499 nm): https://bit.ly/tanager_bands ➡️ *extracted from image metadata in the Tanager open data STAC*
+* List of Tanager's 426 spectral bands (376.4 - 2,499 nm): https://bit.ly/tanager_bands ➡️ *extracted from image metadata in the [Tanager open data STAC](https://www.planet.com/data/stac/browser/tanager-core-imagery/catalog.json)*
 * GEE Community Catalog entry on Planet Tanager open data: https://gee-community-catalog.org/projects/tanager/?h=planet#spectral-coverage
 * Tanager Hyperspectral Viewer (by Dr. Sam Roy): https://sat-io.earthengine.app/view/tanager
 * Video tutorial on using the HyperCoast package by Prof. Qiusheng Wu to view / analyze sample Tanager data: https://www.youtube.com/watch?v=oQ1vauiHvuk.
