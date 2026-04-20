@@ -1,5 +1,5 @@
 # Resources for Planet's [Tanager Open Data Competition](https://learn.planet.com/2026-Tanager-Open-Data-Competition.html) (2026)
-*Last page update: 17.04.2026*
+*Last page update: 20.04.2026*
 
 **Submission deadline: 31.08.2026**
 
@@ -57,6 +57,7 @@ Themes (9):
 
 ## Other
 * List of Tanager's 426 spectral bands (***376.4 - 2,499 nm***): https://bit.ly/tanager_bands ➡️ *extracted from image metadata in the [Tanager open data STAC](https://www.planet.com/data/stac/browser/tanager-core-imagery/catalog.json)*
+* ***Introduction to Tanager*** course at **Planet University**: https://university.planet.com/introduction-to-tanager/
 * GEE Community Catalog entry on Planet Tanager open data: https://gee-community-catalog.org/projects/tanager/?h=planet#spectral-coverage
 * Tanager Hyperspectral Viewer (by Dr. Sam Roy): https://sat-io.earthengine.app/view/tanager
 * Video tutorial on using the HyperCoast package by Prof. Qiusheng Wu to view / analyze sample Tanager data: https://www.youtube.com/watch?v=oQ1vauiHvuk.
