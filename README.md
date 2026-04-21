@@ -28,7 +28,7 @@ This work builds off of the [PACE OCI hyperspectral toolkit](https://github.com/
 
 <img width="188" height="222" alt="image" src="https://github.com/user-attachments/assets/3499ff24-b54c-4863-97a2-a6b59bc86da6" />
 
-**NASA provides data or research used in this Toolkit but does not endorse any product or service.**
+***Disclaimer:*** **NASA provides data or research used in this Toolkit but does not endorse any product or service.**
 
 ## Citation
 
