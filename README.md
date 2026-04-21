@@ -1,6 +1,6 @@
 # the Hyperspectral Data Toolkit
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15873992.svg)](https://doi.org/10.5281/zenodo.15873992)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18382541.svg)](https://zenodo.org/records/18382541)
 [![Update](https://img.shields.io/github/last-commit/bzgeo/hyperspectral_toolkit?label=repo%20last%20updated&style=flat-square)](https://github.com/BzGEO/hyperspectral_toolkit/tree/main)
 ![Visitor badge](https://visitor-badge.laobi.icu/badge?page_id=bzgeo.hyperspectral_toolkit)
 
