@@ -21,8 +21,8 @@
 > [!IMPORTANT]
 > **WHAT** are in the data? **WHAT** are the bands?
 
-* The Tanager data you will probably want to work with contain hyperspectral surface reflectance estimates.
-* The Tanager surface reflectance data available through the open data STAC, for example, has 466 bands. Of those, bands 1-12 contain different data masks, the next 426 bands (bands 13-438) contain the surface reflectances for wavelengths 376-2,499 nm, the next 426 bands (bands 439-464) contain uncertainties for the surface reflectance bands, and the last two bands (465-466) contain geolocation fields for the latitude and longitude. You can find the full list of bands [here](https://bit.ly/tanager_bands).
+* The Tanager data you will probably want to work with contain hyperspectral **surface reflectance estimates**.
+* The Tanager surface reflectance data available through the open data STAC, for example, has a whopping **866 bands**. Of those, bands 1-12 contain different data masks, the next 426 bands (bands 13-438) contain the surface reflectances for wavelengths 376-2,499 nm, the next 426 bands (bands 439-864) contain uncertainties for the surface reflectance bands, and the last two bands (865-466) contain geolocation fields for the latitude and longitude. You can find the full list of bands [here](https://bit.ly/tanager_bands).
 
 > [!IMPORTANT]
 > **WHO** produces / provides Tanager data?
