@@ -1,9 +1,11 @@
 # Planet Tanager data cheatsheet
 *Last updated: 21.04.2026*
 
-**Description:** "Tanager is Planet's fleet of powerful hyperspectral imaging satellites... Tanager-1 launched on August 16th, 2024 and was developed by Planet in collaboration with the Carbon Mapper Coalition. Tanager uses a state-of-the-art imaging spectrometer design developed at NASA's Jet Propulsion Laboratory (NASA JPL)... Tanager has the capabilities to aid in a variety of industries and study areas, including: methane detection and quantification, methane monitoring, biodiversity assessments, mineral mapping, water quality assessments, and much more." (*source: [Planet University](https://university.planet.com/introduction-to-tanager/2311691/scorm/9fb91odscxmb), 2025*)
+## Scenario
+***You*** *are a GIS user or remote sensing specialist and would like to start working with Planet Tanager data, particularly data from the Tanager open data spatio-temporal asset catalog (STAC).* 🤔
 
-**Scenario:** *You are a GIS user or remote sensing specialist and would like to start working with Planet Tanager data, particularly data from the Tanager open data spatio-temporal asset catalog (STAC).* 🤔
+## Description
+"Tanager is Planet's fleet of powerful hyperspectral imaging satellites... Tanager-1 launched on August 16th, 2024 and was developed by Planet in collaboration with the Carbon Mapper Coalition. Tanager uses a state-of-the-art imaging spectrometer design developed at NASA's Jet Propulsion Laboratory (NASA JPL)... Tanager has the capabilities to aid in a variety of industries and study areas, including: methane detection and quantification, methane monitoring, biodiversity assessments, mineral mapping, water quality assessments, and much more." (*source: [Planet University](https://university.planet.com/introduction-to-tanager/2311691/scorm/9fb91odscxmb), 2025*)
 
 > [!IMPORTANT]
 > **WHERE** can I get Tanager data?
@@ -43,4 +45,4 @@
 > **WHERE** can I find more information on hyperspectral data in general?
 
 * See NASA ARSET's course on [Hyperspectral Data for Land and Coastal Systems](https://www.earthdata.nasa.gov/learn/trainings/hyperspectral-data-land-coastal-systems) (2021)
-* Also see NASA ARSET's course on [Introduction to Plankton, Aerosol, Cloud, Ocean Ecosystem (PACE) Hyperspectral Observations for Water Quality Monitoring](https://www.earthdata.nasa.gov/learn/trainings/introduction-plankton-aerosol-cloud-ocean-ecosystem-pace-hyperspectral-observations) (2024)
+* Also see NASA ARSET's [Introduction to Plankton, Aerosol, Cloud, Ocean Ecosystem (PACE) Hyperspectral Observations for Water Quality Monitoring](https://www.earthdata.nasa.gov/learn/trainings/introduction-plankton-aerosol-cloud-ocean-ecosystem-pace-hyperspectral-observations) (2024) course
