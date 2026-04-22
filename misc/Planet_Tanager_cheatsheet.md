@@ -39,7 +39,9 @@
 > **WHERE** can I find more information on Tanager?
 
 * See Planet's Tanager [webpage](https://www.planet.com/constellations/tanager/)
-* See the *Planet University* [**Introduction to Tanager** course](https://university.planet.com/introduction-to-tanager/)
+* See the [Tanager documentation](https://docs.planet.com/data/imagery/tanager/)
+* See the [Tanager product specifications](https://planet.widen.net/s/wq9dsgzvv6/planet-userdocumentation-tanager)
+* See the *Planet University* [**Introduction to Tanager**](https://university.planet.com/introduction-to-tanager/) course
 
 > [!IMPORTANT]
 > **WHERE** can I find more information on hyperspectral data in general?
