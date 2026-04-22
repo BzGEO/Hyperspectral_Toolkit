@@ -35,3 +35,9 @@
 
 * See Planet's Tanager [webpage](https://www.planet.com/constellations/tanager/)
 * See the *Planet University* [**Introduction to Tanager** course](https://university.planet.com/introduction-to-tanager/)
+
+> [!IMPORTANT]
+> **WHERE** can I find more information on hyperspectral data in general?
+
+* See NASA ARSET's course on [Hyperspectral Data for Land and Coastal Systems](https://www.earthdata.nasa.gov/learn/trainings/hyperspectral-data-land-coastal-systems)
+* Also see NASA ARSET's course on [Introduction to Plankton, Aerosol, Cloud, Ocean Ecosystem (PACE) Hyperspectral Observations for Water Quality Monitoring](https://www.earthdata.nasa.gov/learn/trainings/introduction-plankton-aerosol-cloud-ocean-ecosystem-pace-hyperspectral-observations)
