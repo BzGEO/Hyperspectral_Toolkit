@@ -1,5 +1,5 @@
 # Planet Tanager data cheatsheet
-*Last updated: 21.04.2026*
+*Last updated: 22.04.2026*
 
 ## Scenario
 ***You*** *are a GIS user or remote sensing specialist and would like to start working with Planet Tanager data, particularly data from the Tanager open data spatio-temporal asset catalog (STAC).* 🤔
