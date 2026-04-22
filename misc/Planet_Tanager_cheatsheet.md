@@ -1,6 +1,8 @@
 # Planet Tanager data cheatsheet
 *Last updated: 21.04.2026*
 
+**Description:** "Tanager is Planet's fleet of powerful hyperspectral imaging satellites." (*source: [Planet University](https://university.planet.com/introduction-to-tanager/2311691/scorm/9fb91odscxmb), 2025*)
+
 **Scenario:** *You are a GIS user or remote sensing specialist and would like to start working with Planet Tanager data, particularly data from the Tanager open data spatio-temporal asset catalog (STAC).* 🤔
 
 > [!IMPORTANT]
@@ -29,6 +31,7 @@
 > **WHY** should I be interested in Tanager data?
 
 * Because the data are *hyperspectral* and contain much more information than the *multispectral* data you might already be used to! In theory, hyperspectral data can be used for better discriminating among land cover types than mere multispectral data.
+* For instance, while both Tanager and Landsat-8 have a 30m spatial resolution, Tanager has [426 spectral bands](https://planet.widen.net/s/wq9dsgzvv6/planet-userdocumentation-tanager), compared to the [9 spectral bands](https://www.usgs.gov/faqs/what-are-band-designations-landsat-satellites) of the Operational Land Imager of Landsat-8 and Landsat-9.
 
 > [!IMPORTANT]
 > **WHERE** can I find more information on Tanager?
