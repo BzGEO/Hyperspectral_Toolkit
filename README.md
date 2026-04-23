@@ -1,10 +1,14 @@
 # the Hyperspectral Data Toolkit
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18382541.svg)](https://zenodo.org/records/18382541)
+[![EarthRISE: Code](https://img.shields.io/badge/EarthRISE-Code-b50000?labelColor=191f4c)](https://appliedsciences.nasa.gov)
 [![Update](https://img.shields.io/github/last-commit/bzgeo/hyperspectral_toolkit?label=repo%20last%20updated&style=flat-square)](https://github.com/BzGEO/hyperspectral_toolkit/tree/main)
 ![Visitor badge](https://visitor-badge.laobi.icu/badge?page_id=bzgeo.hyperspectral_toolkit)
 
 [![GEE badge](https://img.shields.io/badge/Google%20Earth%20Engine-4285F4.svg?style=for-the-badge&logo=Google-Earth-Engine&logoColor=white)](https://bit.ly/gee_repo_hyperspectral)
+
+<!-- ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=bzgeo.bzgeo) -->
+<!-- [![EarthRISE: Development](https://img.shields.io/badge/EarthRISE-Development-b50000?labelColor=191f4c)](https://appliedsciences.nasa.gov/what-we-do/capacity-building/develop) -->
 
 ## Summary
 This is a repository of [Google Earth Engine 🌎 (GEE)](https://code.earthengine.google.com) JavaScript code for tools for working with various hyperspectral *open* datasets from NASA (e.g., AVIRIS, EMIT, Hyperion, PACE OCI). One of the dependency packages included in this toolkit provides data on the hyperspectral wavelengths for NASA various spaceborne 🛰️ hyperspectral imagers, namely [EO-1 Hyperion](https://developers.google.com/earth-engine/datasets/catalog/EO1_HYPERION), the ISS [EMIT](https://developers.google.com/earth-engine/datasets/catalog/NASA_EMIT_L2A_RFL), and [PACE OCI](https://pace.oceansciences.org/oci.htm) [whose products are *open data*]. Another dependency provides access specifically to PACE OCI land data (since the Hyperion and EMIT data are already available via the [GEE public data catalog](https://developers.google.com/earth-engine/datasets)). Aside from the dependencies, example scripts are provided to allow users to interact with the data, and the geographic and temporal scopes of those examples can be modified to meet users' needs. *Please note* that this repository is a successor, as well as an add-on to the **PACE OCI hyperspectral toolkit** available at https://github.com/BzGEO/PACE_OCI_Toolkit.
