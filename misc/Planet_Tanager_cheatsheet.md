@@ -1,5 +1,5 @@
 # Planet Tanager data cheatsheet
-*Last updated: 22.04.2026*
+*Last updated: 05.05.2026*
 
 ## Scenario
 ***You*** *are a GIS user or remote sensing specialist and would like to start working with Planet Tanager data, particularly data from the Tanager open data spatio-temporal asset catalog (STAC).* 🤔
@@ -16,7 +16,7 @@
 > [!IMPORTANT]
 > **HOW** can I process Tanager data?
 
-* You can use the free [ESA SNAP software](https://step.esa.int/main/download/snap-download/) to export Tanager data into GIS-ready formats for use in ArcGIS or QGGIS.
+* You can use the free [ESA SNAP software](https://step.esa.int/main/download/snap-download/) to export Tanager data into GIS-ready formats (i.e., GeoTIFF) for use in ArcGIS or QGGIS.
 
 > [!IMPORTANT]
 > **WHAT** are in the data? **WHAT** are the bands?
