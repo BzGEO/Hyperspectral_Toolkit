@@ -1,5 +1,5 @@
 # Resources for Planet's [Tanager Open Data Competition](https://learn.planet.com/2026-Tanager-Open-Data-Competition.html) (2026)
-*Last page update: 20.04.2026*
+*Last page update: 05.05.2026*
 
 **Submission deadline: 31.08.2026**
 
@@ -12,7 +12,12 @@
 
 <img width="727" height="273" alt="image" src="https://github.com/user-attachments/assets/5111f76f-183d-4bb0-b733-bcff0070616c" />
 
-## 2. Competition data resources (Tanager spatio-temporal asset catalog)
+## 2. Planet Community group
+* https://community.planet.com/groups/tanager-open-data-competition-105
+
+<img width="1142" height="440" alt="image" src="https://github.com/user-attachments/assets/3ca6ac23-eeb6-464d-9d49-8406e58e0fcf" />
+
+## 3. Competition data resources (Tanager spatio-temporal asset catalog)
 * https://www.planet.com/data/stac/browser/tanager-core-imagery/catalog.json?.language=en
 
 Themes (9):
@@ -42,9 +47,6 @@ Themes (9):
 
 * [Urban](https://www.planet.com/data/stac/browser/tanager-core-imagery/urban/collection.json) ➡️ 56 scenes
 <img width="933" height="364" alt="image" src="https://github.com/user-attachments/assets/7b89bdab-acf1-44ad-91b6-ff252fc7c2a2" />
-
-## 3. Planet Community group
-* https://community.planet.com/groups/tanager-open-data-competition-105
 
 ## 4. Frequently Asked Questions (FAQ)
 * https://planet.widen.net/s/8xpzxvqdfz/planet-faq-tanagercompetition.pdf
