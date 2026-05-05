@@ -16,7 +16,7 @@
 > [!IMPORTANT]
 > **HOW** can I process Tanager data?
 
-* You can use the free [ESA SNAP software](https://step.esa.int/main/download/snap-download/) to export Tanager data into GIS-ready formats (i.e., GeoTIFF) for use in ArcGIS or QGGIS.
+* You can use the free [ESA SNAP software](https://step.esa.int/main/download/snap-download/) to export Tanager data into GIS-ready formats (i.e., GeoTIFF) for use in ArcGIS or QGGIS. Here are [detailed instructions](https://github.com/BzGEO/Hyperspectral_Toolkit/blob/main/misc/planet_tanager__geotif_generation_2026-05-01.pdf).
 
 > [!IMPORTANT]
 > **WHAT** are in the data? **WHAT** are the bands?
