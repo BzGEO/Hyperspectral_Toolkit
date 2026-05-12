@@ -42,6 +42,7 @@
 * See the [Tanager documentation](https://docs.planet.com/data/imagery/tanager/)
 * See the [Tanager product specifications](https://planet.widen.net/s/wq9dsgzvv6/planet-userdocumentation-tanager)
 * See the *Planet University* [**Introduction to Tanager**](https://university.planet.com/introduction-to-tanager/) course
+* See the recent report on Tanager data quality: [Planet L1B Data Quality Q4 2025 Report: Status of Calibration and Data Quality for the Tanager Constellation](https://support.planet.com/hc/en-us/article_attachments/35922771135901)
 
 > [!IMPORTANT]
 > **WHERE** can I find more information on hyperspectral data in general?
