@@ -49,9 +49,9 @@ This work builds off of the [PACE OCI hyperspectral toolkit](https://github.com/
 
 If this toolkit is used in publications, presentations, or other venues, please cite 📝 the following:
 
-Cherrington, E. (2025). Hyperspectral Data Toolkit (Version 1.0.0.1) [Computer software]. https://doi.org/10.5281/zenodo.15873992
+Cherrington, E. (2026). Hyperspectral Data Toolkit (Version 1.0.0.6) [Computer software]. https://doi.org/10.5281/zenodo.18382541
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15873992.svg)](https://doi.org/10.5281/zenodo.15873992)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18382541.svg)](https://doi.org/10.5281/zenodo.18382541)
 
 ## Contact information
 
