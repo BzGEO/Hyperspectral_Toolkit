@@ -28,15 +28,19 @@ To add the code repository 💾 directly to your GEE account, use the following 
 4. More info: **Planet Tanager** hyperspectral 🛰️ data available in GEE (**30m**) via the *Community Data Catalog*: https://gee-community-catalog.org/projects/tanager/
 5. More info: **AVIRIS-NG** *airborne* 🛩️ hyperspectral data available in GEE (**1m**): https://developers.google.com/earth-engine/datasets/catalog/projects_neon-prod-earthengine_assets_HSI_REFL_002
 
+# Comparison of characteristics of open hyperspectral datasets
+
 **Table 1.** Comparison of select hyperspectral datasets available in GEE.
 
 | Satellite / sensor | Source | Spatial res. (m) | Spectral range | No. spectral bands | Date range |
 | --- | --- | --- | --- | --- | --- |
 | PACE OCI | NASA | 1,200 | 346-2,258 nm | 122* | March 2024-present |
 | EMIT | NASA | 60 | 381-2,493 nm | 285 | Aug. 2022 - present |
-| Tanager | Planet | 30 | 376-2,499 nm | 426 | Sept. 2024 - present |
+| Tanager* | Planet | 30 | 376-2,499 nm | 426 | Sept. 2024 - present |
 | EO-1 Hyperion | NASA | 30 | 427-2,396 nm | 224 | May 2001 - March 2017 |
 | AVIRIS-NG | NASA | 1 | 382-2,511 nm | 426 | May 2014-present |
+
+* While Tanager data are not open per se, a select number of scenes are available via open spatio-temporal asset catalog (STAC): https://www.planet.com/data/stac/browser/tanager-core-imagery/catalog.json.
 
 ## Acknowledgements
 This work builds off of the [PACE OCI hyperspectral toolkit](https://github.com/bzgeo/pace_oci_toolkit), which was [soft-launched](https://bit.ly/sbg_tim_2025_pace_tk) at the virtual [Technical Interchange Meeting](https://sbg.jpl.nasa.gov/news-events/sbg-sa-tim-2025) of NASA's proposed [Surface Biology and Geology (SBG)](https://sbg.jpl.nasa.gov/) mission. This work is being led by researchers from the [Lab for Applied Science](https://www.uah.edu/essc/laboratory-for-applied-science) of the [Earth System Science Center](https://www.uah.edu/essc) of the [University of Alabama in Huntsville](https://www.uah.edu/) and has been supported by [NASA](https://www.nasa.gov) Earth Action / NASA [Marshall Space Flight Center](https://www.nasa.gov/marshall/). The initial work was being done in the context of an [Early Adopters project](https://pace.oceansciences.org/people_ea.htm?id=127) for PACE. Kudos are due to Dr. Morgaine McKibben (NASA / SSAI), Skye Caplan (NASA / SSAI), and Dr. K. Fred Huemmrich (NASA / UMBC) of the collective PACE team, [Dr. Africa-Flores-Anderson](https://github.com/africaf) (NASA) of the former SBG team, and to [Kelsey Herndon](https://github.com/herndk1), [Eric Anderson](https://github.com/andersoner), Dr. Kevin Horn, Dr. Ashutosh Limaye, and Dan Irwin of NASA MSFC.
