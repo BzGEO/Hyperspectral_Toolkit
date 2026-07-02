@@ -1,5 +1,5 @@
 # Resources for Planet's [Tanager Open Data Competition](https://learn.planet.com/2026-Tanager-Open-Data-Competition.html) (2026)
-*Last page update: 05.05.2026*
+*Last page update: 02.07.2026*
 
 > [!IMPORTANT]
 > **Submission deadline:** 31 August 2026
@@ -14,9 +14,11 @@
 <img width="727" height="273" alt="image" src="https://github.com/user-attachments/assets/5111f76f-183d-4bb0-b733-bcff0070616c" />
 
 ## 2. Planet Community group
-* https://community.planet.com/groups/tanager-open-data-competition-105
+* https://community.planet.com/groups/tanager-open-data-competition-105 (*at 33 members as of 2 July*)
 
-<img width="1142" height="440" alt="image" src="https://github.com/user-attachments/assets/3ca6ac23-eeb6-464d-9d49-8406e58e0fcf" />
+<img width="1146" height="431" alt="image" src="https://github.com/user-attachments/assets/f27fe7db-11a2-4b21-8d45-ab1150c2c1ac" />
+
+<!-- <img width="1142" height="440" alt="image" src="https://github.com/user-attachments/assets/3ca6ac23-eeb6-464d-9d49-8406e58e0fcf" /> -->
 
 ## 3. Competition data resources (Tanager spatio-temporal asset catalog)
 * https://www.planet.com/data/stac/browser/tanager-core-imagery/catalog.json?.language=en
