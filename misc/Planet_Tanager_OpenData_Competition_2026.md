@@ -1,5 +1,5 @@
 # Resources for Planet's [Tanager Open Data Competition](https://learn.planet.com/2026-Tanager-Open-Data-Competition.html) (2026)
-*Last page update: 02.07.2026*
+*Last page update: 16.07.2026*
 
 > [!IMPORTANT]
 > **Submission deadline:** 31 August 2026
@@ -61,7 +61,7 @@ Themes (9):
 * https://www.surveymonkey.com/r/tanager-competition
 
 ## Other
-* List of Tanager's 426 spectral bands (***376.4 - 2,499 nm***): https://bit.ly/tanager_bands ➡️ *extracted from image metadata in the [Tanager open data STAC](https://www.planet.com/data/stac/browser/tanager-core-imagery/catalog.json)*
+* List of Tanager's 426 spectral bands (***376.4 - 2,499 nm***): https://bit.ly/tanager_bands ➡️ *extracted from image metadata in the [Tanager open data STAC](https://www.planet.com/data/stac/browser/tanager-core-imagery/catalog.json)* 🚨 Dr. Joe Kington of Planet indicated that the specific band wavelengths do very image by image 🚨
 * ***Introduction to Tanager*** course at **Planet University**: https://university.planet.com/introduction-to-tanager/
 <img width="882" height="487" alt="image" src="https://github.com/user-attachments/assets/a5d9ae1a-e855-4acc-8df8-f93781c9842e" />
 
