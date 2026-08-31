@@ -14,7 +14,7 @@
 <img width="727" height="273" alt="image" src="https://github.com/user-attachments/assets/5111f76f-183d-4bb0-b733-bcff0070616c" />
 
 ## 2. Planet Community group
-* https://community.planet.com/groups/tanager-open-data-competition-105 (*at 33 members as of 2 July*)
+* https://community.planet.com/groups/tanager-open-data-competition-105 (*at 36 members as of 31 August*)
 
 <img width="1146" height="431" alt="image" src="https://github.com/user-attachments/assets/f27fe7db-11a2-4b21-8d45-ab1150c2c1ac" />
 
