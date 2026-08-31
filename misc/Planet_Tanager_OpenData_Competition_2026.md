@@ -1,5 +1,5 @@
 # Resources for Planet's [Tanager Open Data Competition](https://learn.planet.com/2026-Tanager-Open-Data-Competition.html) (2026)
-*Last page update: 16.07.2026*
+*Last page update: 31.08.2026*
 
 > [!IMPORTANT]
 > **Submission deadline:** 31 August 2026
