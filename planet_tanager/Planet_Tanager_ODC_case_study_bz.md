@@ -1,12 +1,15 @@
 # Planet Tanager Open Data Competition
-## Lightning Case Study: Bay of Corozal, Belize
+## Case Study: Bay of Corozal, Belize
 
 *Last updated: 31st August 2026*
 
 ## About
+Per the guidelines of the Tanager Open Data Competition, the following constitutes a 'lightning' case study focused on the Corozal Bay of northern Belize.
 
-
-## Context
+## Objectives
+The objectives of this research were as follows:
+* compare data from Tanager-1 data from other sources
+* evaluate the quality of Tanager-1 data
 
 ## Methods
 * Planet Tanager-1 data over Belize's Corozal Bay were acquired in HDF5 format from the [Tanager Open Spatio-Temporal Asset Catalog (STAC)](https://www.planet.com/data/stac/browser/tanager-core-imagery/catalog.json).
@@ -50,6 +53,14 @@
 ## Discussion
 * Comparison of **Figures 2-3** highlights notable distinctions in spectral response patterns between Tanager-1 and EMIT.
 * In the visible wavelengths, the open water posssesses around 11% reflectance in Tanager-1, but only around 3.5% reflectance in EMIT.
+* One therefore wonders if the differences in reflectance may be due to angular differences or to the atmospheric corrections that have been applied. The latter is something that could be explored via other case studies, for future research.
+* That said, differences notwithstanding, the overall patterns from EMIT and Tanager-1 are similar, likely meaning that the data should be interoperable.
+* It should also be noted that the presence of much higher cloud cover in the PACE OCI imagery (afternoon data acquisition) may have impacted some of the spectral signatures shown in **Figure 4**, which has the spectral signatures of the broadleaf forest seeming much closer to that of open water.
+* Additional evaluation would be warranted, particularly using spectrally invariant sites / features.
+
+## Conclusions
+* This case study has demonstrated how Tanager-1 data over coastal Belize compares with images acquired on the same day by fellow hyperspectral instruments EMIT and OCI.
+* Despite the differences in spatial resolution - addresses via spatial resampling - and spectral resolution, given that the overall spectral responses from EMIT and Tanager-1 are similar, this would seem to point to the potential interoperability between the sensors, although additional research is warranted.
 
 ## Scientific code
 * Source **Google Earth Engine** repo: https://bit.ly/gee_repo_hyperspectral
