@@ -7,7 +7,7 @@
  > [!CAUTION]
 > The submission deadline has passed!
 
-> [!IMPORTANT]
+> [!NOTE]
 > The competition's winners have been selected, but they have not yet been announced.
 
 <img width="916" height="354" alt="image" src="https://github.com/user-attachments/assets/f3aa17fe-fb31-4b5f-b576-3cd5b176341c" />
